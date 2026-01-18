@@ -1,0 +1,245 @@
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc"; @line = 4; @symbol_classdef = [SelTimeDelegate,4,6,21]; @symbol_extends<0> = [WatchUi,4,30,37]; @symbol_extends<1> = [BehaviorDelegate,4,38,54]; ]
+class SelTimeDelegate extends WatchUi.BehaviorDelegate {
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc"; @line = 5; @position = 8; @symbol_vardef = [_view,5,8,13]; ]
+    var _view;
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; @symbol_param<0> = [view,7,24,28]; ]
+    function initialize(view) as Void {
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_7_30_10_4_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 8 8 ]
+        symbol [ BehaviorDelegate %tmp.2 8 8 24 ];
+        %tmp.2 = getv ? :BehaviorDelegate;
+        symbol [ initialize %tmp.3 8 25 35 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 9 8 ]
+        %tmp.4 = lgetv %view;
+        symbol [ view %tmp.4 9 16 20 ];
+        symbol [ _view ? 9 8 13 ];
+        putv self :_view %tmp.4;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_7_30_10_4_stop:
+    }
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc"; @line = 12; @symbol_functiondef = [onDown,12,13,19]; ]
+    function onDown() {
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_12_22_16_4_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 13 8 ]
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_13_8_15_8_if_stmt:
+        symbol [ _view %tmp.2 13 12 17 ];
+        %tmp.2 = getv ? :_view;
+        symbol [ time %tmp.3 13 18 22 ];
+        %tmp.3 = getv %tmp.2 :time;
+        %tmp.4 = 0;
+        %tmp.5 = gt %tmp.3 %tmp.4;
+        bf %tmp.5 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_13_8_15_8_if_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_13_8_15_8_if_true:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_13_27_15_8_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 14 8 ]
+        symbol [ _view %tmp.6 14 8 13 ];
+        %tmp.6 = getv self :_view;
+        symbol [ _view %tmp.8 14 21 26 ];
+        %tmp.8 = getv ? :_view;
+        symbol [ time %tmp.9 14 27 31 ];
+        %tmp.9 = getv %tmp.8 :time;
+        %tmp.10 = 1;
+        %tmp.11 = sub %tmp.9 %tmp.10;
+        symbol [ time ? 14 14 18 ];
+        putv %tmp.6 :time %tmp.11;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_13_27_15_8_stop:
+        goto @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_13_8_15_8_if_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_13_8_15_8_if_end:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_12_22_16_4_stop:
+    }
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc"; @line = 17; @symbol_functiondef = [onUp,17,13,17]; ]
+    function onUp() {
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_17_19_21_4_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 18 8 ]
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_18_8_20_8_if_stmt:
+        symbol [ _view %tmp.2 18 12 17 ];
+        %tmp.2 = getv ? :_view;
+        symbol [ time %tmp.3 18 18 22 ];
+        %tmp.3 = getv %tmp.2 :time;
+        %tmp.4 = 60;
+        %tmp.5 = lt %tmp.3 %tmp.4;
+        bf %tmp.5 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_18_8_20_8_if_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_18_8_20_8_if_true:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_18_29_20_8_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 19 12 ]
+        symbol [ _view %tmp.6 19 12 17 ];
+        %tmp.6 = getv self :_view;
+        symbol [ _view %tmp.8 19 25 30 ];
+        %tmp.8 = getv ? :_view;
+        symbol [ time %tmp.9 19 31 35 ];
+        %tmp.9 = getv %tmp.8 :time;
+        %tmp.10 = 5;
+        %tmp.11 = add %tmp.9 %tmp.10;
+        symbol [ time ? 19 18 22 ];
+        putv %tmp.6 :time %tmp.11;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_18_29_20_8_stop:
+        goto @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_18_8_20_8_if_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_18_8_20_8_if_end:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_17_19_21_4_stop:
+    }
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc"; @line = 22; @symbol_functiondef = [onEnter,22,20,27]; ]
+    public
+    function onEnter() {
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_22_30_27_4_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 24 8 ]
+        [ "C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_22_30_27_4_start" "C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_22_30_27_4_stop" ]
+        %refView.1 = local;
+        symbol [ refView %refView.1 24 12 19 ];
+        symbol [ RefereeView %tmp.4 24 26 37 ];
+        %tmp.4 = getv ? :RefereeView;
+        symbol [ _view %tmp.6 24 38 43 ];
+        %tmp.6 = getv ? :_view;
+        symbol [ time %tmp.7 24 44 48 ];
+        %tmp.7 = getv %tmp.6 :time;
+        %tmp.1 = newc %tmp.4 (%tmp.7);
+        lputv %refView.1 %tmp.1;
+        symbol [ refView %refView.1 24 12 19 ];
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 25 8 ]
+        [ "C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_22_30_27_4_start" "C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_22_30_27_4_stop" ]
+        %refDelegate.2 = local;
+        symbol [ refDelegate %refDelegate.2 25 12 23 ];
+        symbol [ RefereeDelegate %tmp.11 25 30 45 ];
+        %tmp.11 = getv ? :RefereeDelegate;
+        %tmp.12 = lgetv %refView.1;
+        symbol [ refView %tmp.12 25 46 53 ];
+        %tmp.8 = newc %tmp.11 (%tmp.12);
+        lputv %refDelegate.2 %tmp.8;
+        symbol [ refDelegate %refDelegate.2 25 12 23 ];
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 26 8 ]
+        symbol [ WatchUi %tmp.13 26 8 15 ];
+        %tmp.13 = getm $.Toybox.WatchUi;
+        symbol [ pushView %tmp.14 26 16 24 ];
+        %tmp.14 = getv function %tmp.13 :pushView;
+        %tmp.15 = lgetv %refView.1;
+        symbol [ refView %tmp.15 26 25 32 ];
+        %tmp.16 = lgetv %refDelegate.2;
+        symbol [ refDelegate %tmp.16 26 34 45 ];
+        symbol [ WatchUi %tmp.17 26 47 54 ];
+        %tmp.17 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.18 26 55 70 ];
+        %tmp.18 = getv %tmp.17 :SLIDE_IMMEDIATE;
+        invoke %tmp.13 %tmp.14(%tmp.15, %tmp.16, %tmp.18);
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_22_30_27_4_stop:
+    }
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc"; @line = 29; @symbol_functiondef = [onKey,29,13,18]; @symbol_param<0> = [evt,29,19,22]; ]
+    function onKey(evt) {
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_29_23_48_4_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 31 8 ]
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_31_8_46_8_if_stmt:
+        %tmp.1 = lgetv %evt;
+        symbol [ evt %tmp.1 31 12 15 ];
+        symbol [ getKey %tmp.2 31 16 22 ];
+        %tmp.2 = getv function %tmp.1 :getKey;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        symbol [ WatchUi %tmp.4 31 28 35 ];
+        %tmp.4 = getm $.Toybox.WatchUi;
+        symbol [ KEY_ENTER %tmp.5 31 36 45 ];
+        %tmp.5 = getv %tmp.4 :KEY_ENTER;
+        %tmp.6 = eq %tmp.3 %tmp.5;
+        bf %tmp.6 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_31_8_46_8_if_false;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_31_8_46_8_if_true:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_31_46_36_8_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 33 12 ]
+        %tmp.7 = self;
+        symbol [ onEnter %tmp.8 33 12 19 ];
+        %tmp.8 = getv function %tmp.7 :onEnter;
+        invoke %tmp.7 %tmp.8();
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 34 12 ]
+        symbol [ WatchUi %tmp.9 34 12 19 ];
+        %tmp.9 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.10 34 20 33 ];
+        %tmp.10 = getv function %tmp.9 :requestUpdate;
+        invoke %tmp.9 %tmp.10();
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 35 12 ]
+        %tmp.11 = true;
+        ret %tmp.11;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_31_46_36_8_stop:
+        goto @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_31_8_46_8_if_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_31_8_46_8_if_false:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 36 15 ]
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_36_15_46_8_if_stmt:
+        %tmp.12 = lgetv %evt;
+        symbol [ evt %tmp.12 36 19 22 ];
+        symbol [ getKey %tmp.13 36 23 29 ];
+        %tmp.13 = getv function %tmp.12 :getKey;
+        %tmp.14 = invoke %tmp.12 %tmp.13();
+        symbol [ WatchUi %tmp.15 36 35 42 ];
+        %tmp.15 = getm $.Toybox.WatchUi;
+        symbol [ KEY_DOWN %tmp.16 36 43 51 ];
+        %tmp.16 = getv %tmp.15 :KEY_DOWN;
+        %tmp.17 = eq %tmp.14 %tmp.16;
+        bf %tmp.17 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_36_15_46_8_if_false;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_36_15_46_8_if_true:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_36_52_41_8_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 37 12 ]
+        %tmp.18 = self;
+        symbol [ onDown %tmp.19 37 12 18 ];
+        %tmp.19 = getv function %tmp.18 :onDown;
+        invoke %tmp.18 %tmp.19();
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 38 12 ]
+        symbol [ WatchUi %tmp.20 38 12 19 ];
+        %tmp.20 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.21 38 20 33 ];
+        %tmp.21 = getv function %tmp.20 :requestUpdate;
+        invoke %tmp.20 %tmp.21();
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 40 12 ]
+        %tmp.22 = true;
+        ret %tmp.22;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_36_52_41_8_stop:
+        goto @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_36_15_46_8_if_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_36_15_46_8_if_false:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 41 15 ]
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_41_15_46_8_if_stmt:
+        %tmp.23 = lgetv %evt;
+        symbol [ evt %tmp.23 41 19 22 ];
+        symbol [ getKey %tmp.24 41 23 29 ];
+        %tmp.24 = getv function %tmp.23 :getKey;
+        %tmp.25 = invoke %tmp.23 %tmp.24();
+        symbol [ WatchUi %tmp.26 41 35 42 ];
+        %tmp.26 = getm $.Toybox.WatchUi;
+        symbol [ KEY_UP %tmp.27 41 43 49 ];
+        %tmp.27 = getv %tmp.26 :KEY_UP;
+        %tmp.28 = eq %tmp.25 %tmp.27;
+        bf %tmp.28 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_41_15_46_8_if_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_41_15_46_8_if_true:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_41_50_46_8_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 42 12 ]
+        %tmp.29 = self;
+        symbol [ onUp %tmp.30 42 12 16 ];
+        %tmp.30 = getv function %tmp.29 :onUp;
+        invoke %tmp.29 %tmp.30();
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 43 12 ]
+        symbol [ WatchUi %tmp.31 43 12 19 ];
+        %tmp.31 = getm $.Toybox.WatchUi;
+        symbol [ requestUpdate %tmp.32 43 20 33 ];
+        %tmp.32 = getv function %tmp.31 :requestUpdate;
+        invoke %tmp.31 %tmp.32();
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 45 12 ]
+        %tmp.33 = true;
+        ret %tmp.33;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_41_50_46_8_stop:
+        goto @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_41_15_46_8_if_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_41_15_46_8_if_end:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_36_15_46_8_if_end:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_31_8_46_8_if_end:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 47 8 ]
+        %tmp.34 = false;
+        ret %tmp.34;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_29_23_48_4_stop:
+    }
+}
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc"; @line = 1; ]
+<init> {
+}

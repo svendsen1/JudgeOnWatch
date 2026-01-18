@@ -1,0 +1,139 @@
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
+import Toybox.Graphics;
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc"; @line = 4; @symbol_classdef = [SelTimeView,4,6,17]; @symbol_extends<0> = [WatchUi,4,26,33]; @symbol_extends<1> = [View,4,34,38]; ]
+class SelTimeView extends WatchUi.View {
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc"; @line = 4; ]
+    <init> {
+    }
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc"; @line = 4; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc"; @line = 5; @position = 8; @symbol_vardef = [time,5,8,12]; ]
+    var time = 0;
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc"; @line = 6; @position = 8; @symbol_vardef = [_timerLabel,6,8,19]; ]
+    var _timerLabel;
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; ]
+    function initialize() as Void {
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_8_26_10_4_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc" 9 8 ]
+        symbol [ View %tmp.2 9 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 9 13 23 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_8_26_10_4_stop:
+    }
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc"; @line = 13; @symbol_functiondef = [onLayout,13,13,21]; @symbol_param<0> = [dc,13,22,24]; @symbol_param<0>_type<0> = [Dc,13,28,30]; ]
+    function onLayout(dc as Dc) as Void {
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_13_40_16_4_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc" 14 8 ]
+        %tmp.1 = self;
+        symbol [ setLayout %tmp.2 14 8 17 ];
+        %tmp.2 = getv function %tmp.1 :setLayout;
+        symbol [ Rez %tmp.4 14 18 21 ];
+        %tmp.4 = getv ? :Rez;
+        symbol [ Layouts %tmp.5 14 22 29 ];
+        %tmp.5 = getv %tmp.4 :Layouts;
+        symbol [ HalfDurationLayout %tmp.6 14 30 48 ];
+        %tmp.6 = getv function %tmp.5 :HalfDurationLayout;
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 14 49 51 ];
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        invoke %tmp.1 %tmp.2(%tmp.8);
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc" 15 8 ]
+        %tmp.9 = self;
+        symbol [ findDrawableById %tmp.10 15 22 38 ];
+        %tmp.10 = getv function %tmp.9 :findDrawableById;
+        %tmp.11 = "timer";
+        %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        symbol [ _timerLabel ? 15 8 19 ];
+        putv self :_timerLabel %tmp.12;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_13_40_16_4_stop:
+    }
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc"; @line = 21; @symbol_functiondef = [onShow,21,13,19]; ]
+    function onShow() as Void {
+    }
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc"; @line = 25; @symbol_functiondef = [onUpdate,25,13,21]; @symbol_param<0> = [dc,25,22,24]; @symbol_param<0>_type<0> = [Dc,25,28,30]; ]
+    function onUpdate(dc as Dc) as Void {
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_25_40_33_4_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc" 26 8 ]
+        [ "C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_25_40_33_4_start" "C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_25_40_33_4_stop" ]
+        %minute.1 = local;
+        symbol [ minute %minute.1 26 12 18 ];
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc" 27 8 ]
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_27_17_29_14_begin:
+        symbol [ time %tmp.2 27 18 22 ];
+        %tmp.2 = getv ? :time;
+        %tmp.3 = 10;
+        %tmp.4 = lt %tmp.2 %tmp.3;
+        bf %tmp.4 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_27_17_29_14_else_false;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_27_17_29_14_true:
+        symbol [ Lang %tmp.6 28 14 18 ];
+        %tmp.6 = getv ? :Lang;
+        symbol [ format %tmp.7 28 19 25 ];
+        %tmp.7 = getv function %tmp.6 :format;
+        %tmp.8 = "0$1$";
+        %tmp.9 = newa 1;
+        symbol [ time %tmp.11 28 35 39 ];
+        %tmp.11 = getv ? :time;
+        %tmp.12 = dup %tmp.9;
+        %tmp.13 = aputv %tmp.12 0 %tmp.11;
+        %tmp.14 = invoke %tmp.6 %tmp.7(%tmp.8, %tmp.13);
+        push %tmp.14;
+        goto @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_27_17_29_14_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_27_17_29_14_else_false:
+        symbol [ time %tmp.16 29 14 18 ];
+        %tmp.16 = getv ? :time;
+        push %tmp.16;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_27_17_29_14_end:
+        %tmp.17 = phi [%tmp.4 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_27_17_29_14_begin] [%tmp.14 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_27_17_29_14_true] [%tmp.16 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_27_17_29_14_else_false] [%tmp.17 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_27_17_29_14_end];
+        lputv %minute.1 %tmp.17;
+        symbol [ minute %minute.1 27 8 14 ];
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc" 30 8 ]
+        [ "C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_25_40_33_4_start" "C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_25_40_33_4_stop" ]
+        %timeString.2 = local;
+        symbol [ timeString %timeString.2 30 12 22 ];
+        symbol [ Lang %tmp.19 30 25 29 ];
+        %tmp.19 = getv ? :Lang;
+        symbol [ format %tmp.20 30 30 36 ];
+        %tmp.20 = getv function %tmp.19 :format;
+        %tmp.21 = "$1$:$2$";
+        %tmp.22 = newa 2;
+        %tmp.23 = lgetv %minute.1;
+        symbol [ minute %tmp.23 30 49 55 ];
+        %tmp.24 = dup %tmp.22;
+        %tmp.25 = aputv %tmp.24 0 %tmp.23;
+        %tmp.26 = "00";
+        %tmp.27 = dup %tmp.25;
+        %tmp.28 = aputv %tmp.27 1 %tmp.26;
+        %tmp.29 = invoke %tmp.19 %tmp.20(%tmp.21, %tmp.28);
+        lputv %timeString.2 %tmp.29;
+        symbol [ timeString %timeString.2 30 12 22 ];
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc" 31 8 ]
+        symbol [ _timerLabel %tmp.31 31 8 19 ];
+        %tmp.31 = getv ? :_timerLabel;
+        symbol [ setText %tmp.32 31 20 27 ];
+        %tmp.32 = getv function %tmp.31 :setText;
+        %tmp.33 = lgetv %timeString.2;
+        symbol [ timeString %tmp.33 31 28 38 ];
+        invoke %tmp.31 %tmp.32(%tmp.33);
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc" 32 8 ]
+        symbol [ View %tmp.35 32 8 12 ];
+        %tmp.35 = getv ? :View;
+        symbol [ onUpdate %tmp.36 32 13 21 ];
+        %tmp.36 = getv function %tmp.35 :onUpdate;
+        %tmp.37 = lgetv %dc;
+        symbol [ dc %tmp.37 32 22 24 ];
+        invoke %tmp.35 %tmp.36(%tmp.37);
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeView_mc_25_40_33_4_stop:
+    }
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc"; @line = 38; @symbol_functiondef = [onHide,38,13,19]; ]
+    function onHide() as Void {
+    }
+}
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeView.mc"; @line = 1; ]
+<init> {
+}

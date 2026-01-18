@@ -1,0 +1,35 @@
+<layout id="MatchLayout">
+    <label
+        id="home"
+        x="20%"
+        y="15%"
+        justification = "Graphics.TEXT_JUSTIFY_LEFT"
+        color="Graphics.COLOR_WHITE"
+        text="[0]"
+    />   
+    <label
+        id="away"
+        x="80%"
+        y="15%"
+        justification= "Graphics.TEXT_JUSTIFY_RIGHT"
+        color="Graphics.COLOR_WHITE"
+        text="[0]"
+    />
+    <label
+        id="mainTimer"
+        x="center"
+        y="center"
+        font = "Graphics.FONT_NUMBER_MEDIUM"
+        justification= "Graphics.TEXT_JUSTIFY_CENTER"
+        color="Graphics.COLOR_WHITE"
+        text="00:00"
+    />
+    <label
+        id="addedTime"
+        x="center"
+        y="70%"
+        justification= "Graphics.TEXT_JUSTIFY_CENTER"
+        color="Graphics.COLOR_RED"
+        text="00:00"/>
+
+</layout>

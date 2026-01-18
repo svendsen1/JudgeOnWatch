@@ -1,0 +1,218 @@
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc"; @line = 5; @symbol_classdef = [TeamMenuDelegate,5,6,22]; @symbol_extends<0> = [WatchUi,5,31,38]; @symbol_extends<1> = [MenuInputDelegate,5,39,56]; ]
+class TeamMenuDelegate extends WatchUi.MenuInputDelegate {
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc"; @line = 6; @position = 8; @symbol_vardef = [_view,6,8,13]; ]
+    var _view;
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc"; @line = 7; @position = 8; @symbol_vardef = [_team,7,8,13]; ]
+    var _team;
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc"; @line = 9; @symbol_functiondef = [initialize,9,13,23]; @symbol_param<0> = [view,9,24,28]; @symbol_param<1> = [team,9,30,34]; ]
+    function initialize(view, team) as Void {
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_9_36_13_4_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc" 10 8 ]
+        symbol [ MenuInputDelegate %tmp.2 10 8 25 ];
+        %tmp.2 = getv ? :MenuInputDelegate;
+        symbol [ initialize %tmp.3 10 26 36 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc" 11 8 ]
+        %tmp.4 = lgetv %view;
+        symbol [ view %tmp.4 11 16 20 ];
+        symbol [ _view ? 11 8 13 ];
+        putv self :_view %tmp.4;
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc" 12 8 ]
+        %tmp.5 = lgetv %team;
+        symbol [ team %tmp.5 12 16 20 ];
+        symbol [ _team ? 12 8 13 ];
+        putv self :_team %tmp.5;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_9_36_13_4_stop:
+    }
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc"; @line = 15; @symbol_functiondef = [onMenuItem,15,13,23]; @symbol_param<0> = [item,15,24,28]; @symbol_param<0>_type<0> = [Symbol,15,32,38]; ]
+    function onMenuItem(item as Symbol) as Void {
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_15_48_33_4_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc" 16 8 ]
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_16_8_32_8_if_stmt:
+        %tmp.1 = lgetv %item;
+        symbol [ item %tmp.1 16 12 16 ];
+        %tmp.3 = const :scored;
+        symbol [ scored %tmp.3 16 21 27 const ];
+        %tmp.4 = eq %tmp.1 %tmp.3;
+        bf %tmp.4 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_16_8_32_8_if_false;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_16_8_32_8_if_true:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_16_29_22_8_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc" 17 12 ]
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_17_12_21_12_if_stmt:
+        symbol [ _team %tmp.6 17 16 21 ];
+        %tmp.6 = getv ? :_team;
+        %tmp.7 = "home";
+        %tmp.8 = eq %tmp.6 %tmp.7;
+        bf %tmp.8 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_17_12_21_12_if_false;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_17_12_21_12_if_true:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_17_32_19_12_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc" 18 16 ]
+        symbol [ _view %tmp.9 18 16 21 ];
+        %tmp.9 = getv self :_view;
+        symbol [ _view %tmp.11 18 34 39 ];
+        %tmp.11 = getv ? :_view;
+        symbol [ homeScore %tmp.12 18 40 49 ];
+        %tmp.12 = getv %tmp.11 :homeScore;
+        %tmp.13 = 1;
+        %tmp.14 = add %tmp.12 %tmp.13;
+        symbol [ homeScore ? 18 22 31 ];
+        putv %tmp.9 :homeScore %tmp.14;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_17_32_19_12_stop:
+        goto @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_17_12_21_12_if_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_17_12_21_12_if_false:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc" 19 19 ]
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_19_19_21_12_if_stmt:
+        symbol [ _team %tmp.16 19 23 28 ];
+        %tmp.16 = getv ? :_team;
+        %tmp.17 = "away";
+        %tmp.18 = eq %tmp.16 %tmp.17;
+        bf %tmp.18 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_19_19_21_12_if_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_19_19_21_12_if_true:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_19_39_21_12_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc" 20 16 ]
+        symbol [ _view %tmp.19 20 16 21 ];
+        %tmp.19 = getv self :_view;
+        symbol [ _view %tmp.21 20 34 39 ];
+        %tmp.21 = getv ? :_view;
+        symbol [ awayScore %tmp.22 20 40 49 ];
+        %tmp.22 = getv %tmp.21 :awayScore;
+        %tmp.23 = 1;
+        %tmp.24 = add %tmp.22 %tmp.23;
+        symbol [ awayScore ? 20 22 31 ];
+        putv %tmp.19 :awayScore %tmp.24;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_19_39_21_12_stop:
+        goto @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_19_19_21_12_if_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_19_19_21_12_if_end:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_17_12_21_12_if_end:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_16_29_22_8_stop:
+        goto @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_16_8_32_8_if_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_16_8_32_8_if_false:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc" 22 15 ]
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_22_15_32_8_if_stmt:
+        %tmp.25 = lgetv %item;
+        symbol [ item %tmp.25 22 19 23 ];
+        %tmp.27 = const :yellow;
+        symbol [ yellow %tmp.27 22 28 34 const ];
+        %tmp.28 = eq %tmp.25 %tmp.27;
+        bf %tmp.28 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_22_15_32_8_if_false;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_22_15_32_8_if_true:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_22_36_24_8_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc" 23 12 ]
+        symbol [ System %tmp.29 23 12 18 ];
+        %tmp.29 = getm $.Toybox.System;
+        symbol [ println %tmp.30 23 19 26 ];
+        %tmp.30 = getv function %tmp.29 :println;
+        %tmp.31 = "Yellow card ";
+        symbol [ _team %tmp.33 23 44 49 ];
+        %tmp.33 = getv ? :_team;
+        %tmp.34 = add %tmp.31 %tmp.33;
+        invoke %tmp.29 %tmp.30(%tmp.34);
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_22_36_24_8_stop:
+        goto @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_22_15_32_8_if_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_22_15_32_8_if_false:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc" 24 15 ]
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_24_15_32_8_if_stmt:
+        %tmp.35 = lgetv %item;
+        symbol [ item %tmp.35 24 19 23 ];
+        %tmp.37 = const :red;
+        symbol [ red %tmp.37 24 28 31 const ];
+        %tmp.38 = eq %tmp.35 %tmp.37;
+        bf %tmp.38 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_24_15_32_8_if_false;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_24_15_32_8_if_true:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_24_33_26_8_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc" 25 12 ]
+        symbol [ System %tmp.39 25 12 18 ];
+        %tmp.39 = getm $.Toybox.System;
+        symbol [ println %tmp.40 25 19 26 ];
+        %tmp.40 = getv function %tmp.39 :println;
+        %tmp.41 = "Red card ";
+        symbol [ _team %tmp.43 25 41 46 ];
+        %tmp.43 = getv ? :_team;
+        %tmp.44 = add %tmp.41 %tmp.43;
+        invoke %tmp.39 %tmp.40(%tmp.44);
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_24_33_26_8_stop:
+        goto @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_24_15_32_8_if_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_24_15_32_8_if_false:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc" 26 15 ]
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_26_15_32_8_if_stmt:
+        %tmp.45 = lgetv %item;
+        symbol [ item %tmp.45 26 19 23 ];
+        %tmp.47 = const :cBGoal;
+        symbol [ cBGoal %tmp.47 26 28 34 const ];
+        %tmp.48 = eq %tmp.45 %tmp.47;
+        bf %tmp.48 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_26_15_32_8_if_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_26_15_32_8_if_true:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_26_36_32_8_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc" 27 12 ]
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_27_12_31_12_if_stmt:
+        symbol [ _team %tmp.50 27 16 21 ];
+        %tmp.50 = getv ? :_team;
+        %tmp.51 = "home";
+        %tmp.52 = eq %tmp.50 %tmp.51;
+        bf %tmp.52 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_27_12_31_12_if_false;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_27_12_31_12_if_true:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_27_32_29_12_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc" 28 16 ]
+        symbol [ _view %tmp.53 28 16 21 ];
+        %tmp.53 = getv self :_view;
+        symbol [ _view %tmp.55 28 34 39 ];
+        %tmp.55 = getv ? :_view;
+        symbol [ homeScore %tmp.56 28 40 49 ];
+        %tmp.56 = getv %tmp.55 :homeScore;
+        %tmp.57 = 1;
+        %tmp.58 = sub %tmp.56 %tmp.57;
+        symbol [ homeScore ? 28 22 31 ];
+        putv %tmp.53 :homeScore %tmp.58;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_27_32_29_12_stop:
+        goto @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_27_12_31_12_if_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_27_12_31_12_if_false:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc" 29 19 ]
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_29_19_31_12_if_stmt:
+        symbol [ _team %tmp.60 29 23 28 ];
+        %tmp.60 = getv ? :_team;
+        %tmp.61 = "away";
+        %tmp.62 = eq %tmp.60 %tmp.61;
+        bf %tmp.62 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_29_19_31_12_if_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_29_19_31_12_if_true:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_29_39_31_12_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc" 30 16 ]
+        symbol [ _view %tmp.63 30 16 21 ];
+        %tmp.63 = getv self :_view;
+        symbol [ _view %tmp.65 30 34 39 ];
+        %tmp.65 = getv ? :_view;
+        symbol [ awayScore %tmp.66 30 40 49 ];
+        %tmp.66 = getv %tmp.65 :awayScore;
+        %tmp.67 = 1;
+        %tmp.68 = sub %tmp.66 %tmp.67;
+        symbol [ awayScore ? 30 22 31 ];
+        putv %tmp.63 :awayScore %tmp.68;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_29_39_31_12_stop:
+        goto @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_29_19_31_12_if_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_29_19_31_12_if_end:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_27_12_31_12_if_end:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_26_36_32_8_stop:
+        goto @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_26_15_32_8_if_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_26_15_32_8_if_end:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_24_15_32_8_if_end:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_22_15_32_8_if_end:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_16_8_32_8_if_end:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_TeamMenuDelegate_mc_15_48_33_4_stop:
+    }
+}
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\TeamMenuDelegate.mc"; @line = 1; ]
+<init> {
+}
