@@ -416,3 +416,29 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+# ========================================
+# Garmin Connect IQ / Monkey C
+# ========================================
+
+# Build output
+bin/
+*.prg
+*.iq
+*.debug.xml
+
+# Temporary files
+*.tmp
+*.bak
+
+# Eclipse / Connect IQ IDE
+.project
+.settings/
+.classpath
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Optional: logs
+*.log
