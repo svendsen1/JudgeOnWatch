@@ -1,0 +1,173 @@
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\GameDoneView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [WatchUi,1,14,21]; ]
+import Toybox.WatchUi;
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\GameDoneView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
+import Toybox.Lang;
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\GameDoneView.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [System,3,14,20]; ]
+import Toybox.System;
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\GameDoneView.mc"; @line = 5; @symbol_classdef = [GameDoneView,5,6,18]; @symbol_extends<0> = [WatchUi,5,27,34]; @symbol_extends<1> = [Menu2,5,35,40]; ]
+class GameDoneView extends WatchUi.Menu2 {
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\GameDoneView.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\GameDoneView.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\GameDoneView.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; @symbol_param<0> = [events,7,24,30]; ]
+    function initialize(events) as Void {
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_7_32_26_4_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\GameDoneView.mc" 8 8 ]
+        symbol [ Menu2 %tmp.2 8 8 13 ];
+        %tmp.2 = getv ? :Menu2;
+        symbol [ initialize %tmp.3 8 14 24 ];
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = newd 1;
+        %tmp.6 = const :title;
+        symbol [ title %tmp.6 8 27 32 const ];
+        %tmp.7 = "GAME";
+        %tmp.8 = dup %tmp.4;
+        %tmp.9 = aputv %tmp.8 %tmp.6 %tmp.7;
+        invoke %tmp.2 %tmp.3(%tmp.9);
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\GameDoneView.mc" 10 8 ]
+        for @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_10_8_23_8_for_test @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_10_8_23_8_for_incr @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_10_8_23_8_for_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_10_8_23_8_for_init:
+        [ "C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_10_8_23_8_for_begin" "C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_10_8_23_8_for_end" ]
+        %i.1 = local;
+        symbol [ i %i.1 10 17 18 ];
+        %tmp.10 = 0;
+        lputv %i.1 %tmp.10;
+        symbol [ i %i.1 10 17 18 ];
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_10_8_23_8_for_test:
+        %tmp.11 = lgetv %i.1;
+        symbol [ i %tmp.11 10 24 25 ];
+        %tmp.12 = lgetv %events;
+        symbol [ events %tmp.12 10 28 34 ];
+        symbol [ size %tmp.13 10 35 39 ];
+        %tmp.13 = getv function %tmp.12 :size;
+        %tmp.14 = invoke %tmp.12 %tmp.13();
+        %tmp.15 = lt %tmp.11 %tmp.14;
+        bf %tmp.15 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_10_8_23_8_for_end;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_10_8_23_8_for_begin:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_10_48_23_8_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\GameDoneView.mc" 11 12 ]
+        [ "C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_10_48_23_8_start" "C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_10_48_23_8_stop" ]
+        %e.2 = local;
+        symbol [ e %e.2 11 16 17 ];
+        %tmp.16 = lgetv %events;
+        symbol [ events %tmp.16 11 20 26 ];
+        %tmp.17 = lgetv %i.1;
+        symbol [ i %tmp.17 11 27 28 ];
+        %tmp.18 = agetv %tmp.16 %tmp.17;
+        lputv %e.2 %tmp.18;
+        symbol [ e %e.2 11 16 17 ];
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\GameDoneView.mc" 12 12 ]
+        [ "C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_10_48_23_8_start" "C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_10_48_23_8_stop" ]
+        %text.3 = local;
+        symbol [ text %text.3 12 16 20 ];
+        %tmp.19 = lgetv %e.2;
+        symbol [ e %tmp.19 12 25 26 ];
+        symbol [ time %tmp.20 12 27 31 ];
+        %tmp.20 = getv %tmp.19 :time;
+        %tmp.21 = 60;
+        %tmp.22 = div %tmp.20 %tmp.21;
+        %tmp.23 = 1;
+        %tmp.24 = add %tmp.22 %tmp.23;
+        %tmp.25 = "' | ";
+        %tmp.26 = add %tmp.24 %tmp.25;
+        %tmp.27 = lgetv %e.2;
+        symbol [ e %tmp.27 12 54 55 ];
+        symbol [ score %tmp.28 12 56 61 ];
+        %tmp.28 = getv %tmp.27 :score;
+        %tmp.29 = add %tmp.26 %tmp.28;
+        lputv %text.3 %tmp.29;
+        symbol [ text %text.3 12 16 20 ];
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\GameDoneView.mc" 14 12 ]
+        symbol [ System %tmp.30 14 12 18 ];
+        %tmp.30 = getm $.Toybox.System;
+        symbol [ println %tmp.31 14 19 26 ];
+        %tmp.31 = getv function %tmp.30 :println;
+        %tmp.32 = lgetv %i.1;
+        symbol [ i %tmp.32 14 27 28 ];
+        invoke %tmp.30 %tmp.31(%tmp.32);
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\GameDoneView.mc" 15 12 ]
+        %tmp.33 = self;
+        symbol [ addItem %tmp.34 15 12 19 ];
+        %tmp.34 = getv function %tmp.33 :addItem;
+        symbol [ WatchUi %tmp.37 16 20 27 ];
+        %tmp.37 = getm $.Toybox.WatchUi;
+        symbol [ MenuItem %tmp.38 16 28 36 ];
+        %tmp.38 = getv function ? %tmp.37 :MenuItem;
+        %tmp.39 = lgetv %text.3;
+        symbol [ text %tmp.39 17 20 24 ];
+        %tmp.40 = null;
+        %tmp.41 = null;
+        %tmp.42 = newd 4;
+        %tmp.44 = const :team;
+        symbol [ team %tmp.44 20 22 26 const ];
+        %tmp.45 = lgetv %e.2;
+        symbol [ e %tmp.45 20 30 31 ];
+        symbol [ team %tmp.46 20 32 36 ];
+        %tmp.46 = getv %tmp.45 :team;
+        %tmp.47 = dup %tmp.42;
+        %tmp.48 = aputv %tmp.47 %tmp.44 %tmp.46;
+        %tmp.50 = const :time;
+        symbol [ time %tmp.50 20 39 43 const ];
+        %tmp.51 = lgetv %e.2;
+        symbol [ e %tmp.51 20 47 48 ];
+        symbol [ time %tmp.52 20 49 53 ];
+        %tmp.52 = getv %tmp.51 :time;
+        %tmp.53 = dup %tmp.48;
+        %tmp.54 = aputv %tmp.53 %tmp.50 %tmp.52;
+        %tmp.56 = const :score;
+        symbol [ score %tmp.56 20 56 61 const ];
+        %tmp.57 = lgetv %e.2;
+        symbol [ e %tmp.57 20 65 66 ];
+        symbol [ time %tmp.58 20 67 71 ];
+        %tmp.58 = getv %tmp.57 :time;
+        %tmp.59 = dup %tmp.54;
+        %tmp.60 = aputv %tmp.59 %tmp.56 %tmp.58;
+        %tmp.62 = const :eventType;
+        symbol [ eventType %tmp.62 20 74 83 const ];
+        %tmp.63 = lgetv %e.2;
+        symbol [ e %tmp.63 20 87 88 ];
+        symbol [ eventType %tmp.64 20 89 98 ];
+        %tmp.64 = getv %tmp.63 :eventType;
+        %tmp.65 = dup %tmp.60;
+        %tmp.66 = aputv %tmp.65 %tmp.62 %tmp.64;
+        %tmp.35 = newc %tmp.38 (%tmp.39, %tmp.40, %tmp.41, %tmp.66);
+        invoke %tmp.33 %tmp.34(%tmp.35);
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_10_48_23_8_stop:
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_10_8_23_8_for_incr:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\GameDoneView.mc" 10 ]
+        %tmp.69 = lgetv %i.1;
+        symbol [ i %tmp.69 10 43 44 ];
+        %tmp.70 = add %tmp.69 1;
+        lputv %i.1 %tmp.70;
+        symbol [ i %i.1 10 43 44 ];
+        goto @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_10_8_23_8_for_test;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_10_8_23_8_for_end:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\GameDoneView.mc" 24 8 ]
+        %tmp.71 = self;
+        symbol [ addItem %tmp.72 24 8 15 ];
+        %tmp.72 = getv function %tmp.71 :addItem;
+        symbol [ WatchUi %tmp.75 24 20 27 ];
+        %tmp.75 = getm $.Toybox.WatchUi;
+        symbol [ MenuItem %tmp.76 24 28 36 ];
+        %tmp.76 = getv function ? %tmp.75 :MenuItem;
+        %tmp.77 = "Restart";
+        %tmp.78 = null;
+        %tmp.79 = "Restart";
+        %tmp.80 = newd 1;
+        %tmp.82 = const :function;
+        symbol [ function %tmp.82 24 67 75 const ];
+        %tmp.83 = "restart";
+        %tmp.84 = dup %tmp.80;
+        %tmp.85 = aputv %tmp.84 %tmp.82 %tmp.83;
+        %tmp.73 = newc %tmp.76 (%tmp.77, %tmp.78, %tmp.79, %tmp.85);
+        invoke %tmp.71 %tmp.72(%tmp.73);
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneView_mc_7_32_26_4_stop:
+    }
+}
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\GameDoneView.mc"; @line = 1; ]
+<init> {
+}

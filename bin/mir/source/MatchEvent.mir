@@ -1,0 +1,50 @@
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\MatchEvent.mc"; @line = 1; @symbol_classdef = [MatchEvent,1,6,16]; ]
+class MatchEvent {
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\MatchEvent.mc"; @line = 1; ]
+    <init> {
+    }
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\MatchEvent.mc"; @line = 1; ]
+    static
+    <init> {
+    }
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\MatchEvent.mc"; @line = 2; @position = 8; @symbol_vardef = [team,2,8,12]; ]
+    var team;
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\MatchEvent.mc"; @line = 3; @position = 8; @symbol_vardef = [time,3,8,12]; ]
+    var time;
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\MatchEvent.mc"; @line = 4; @position = 8; @symbol_vardef = [score,4,8,13]; ]
+    var score;
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\MatchEvent.mc"; @line = 5; @position = 8; @symbol_vardef = [eventType,5,8,17]; ]
+    var eventType;
+    [ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\MatchEvent.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; @symbol_param<0> = [team,7,24,28]; @symbol_param<1> = [time,7,30,34]; @symbol_param<2> = [score,7,36,41]; @symbol_param<3> = [eventType,7,43,52]; ]
+    function initialize(team, time, score, eventType) as Void {
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_MatchEvent_mc_7_54_12_4_start:
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\MatchEvent.mc" 8 8 ]
+        symbol [ self %self 8 8 12 ];
+        %tmp.1 = lgetv %team;
+        symbol [ team %tmp.1 8 21 25 ];
+        symbol [ team ? 8 13 17 ];
+        putv self :team %tmp.1;
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\MatchEvent.mc" 9 8 ]
+        symbol [ self %self 9 8 12 ];
+        %tmp.2 = lgetv %time;
+        symbol [ time %tmp.2 9 21 25 ];
+        symbol [ time ? 9 13 17 ];
+        putv self :time %tmp.2;
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\MatchEvent.mc" 10 8 ]
+        symbol [ self %self 10 8 12 ];
+        %tmp.3 = lgetv %score;
+        symbol [ score %tmp.3 10 21 26 ];
+        symbol [ score ? 10 13 18 ];
+        putv self :score %tmp.3;
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\MatchEvent.mc" 11 8 ]
+        symbol [ self %self 11 8 12 ];
+        %tmp.4 = lgetv %eventType;
+        symbol [ eventType %tmp.4 11 25 34 ];
+        symbol [ eventType ? 11 13 22 ];
+        putv self :eventType %tmp.4;
+C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_MatchEvent_mc_7_54_12_4_stop:
+    }
+}
+[ @file = "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\MatchEvent.mc"; @line = 1; ]
+<init> {
+}

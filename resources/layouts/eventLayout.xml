@@ -1,0 +1,29 @@
+<layout id="EventLayout">
+    <bitmap
+        id="eventIcon"
+        x = "center"
+        y = "30%"
+        filename = "C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\resources\\drawables\\football-svgrepo-com.svg" 
+    />
+
+    <label
+        id="scoreText"
+        x="center"
+        y="center"
+        font="Graphics.FONT_LARGE"
+        justification="Graphics.TEXT_JUSTIFY_CENTER"
+        color="Graphics.COLOR_WHITE"
+        text="0-0"
+    />
+
+    <label
+        id="timeText"
+        x="center"
+        y="bottom"
+        font="Graphics.FONT_SMALL"
+        justification="Graphics.TEXT_JUSTIFY_CENTER"
+        color="Graphics.COLOR_WHITE"
+        text="45:00"
+    />
+
+</layout>

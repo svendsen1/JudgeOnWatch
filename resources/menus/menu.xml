@@ -1,0 +1,4 @@
+<menu id="MainMenu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.garmin.com/downloads/connect-iq/resources.xsd">
+    <menu-item id="home" label="@Strings.menu_label_home" />
+    <menu-item id="away" label="@Strings.menu_label_away" />
+</menu>
