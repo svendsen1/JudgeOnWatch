@@ -7,25 +7,18 @@ using Toybox.Graphics as Gfx;
 module Rez {
     module Drawables {
         (:initialized) var footballIcon as ResourceId;
-        (:initialized) var whistleIcon as ResourceId;
-        (:initialized) var eventIcon as ResourceId;
         (:initialized) var LauncherIcon as ResourceId;
     } // Drawables
 
     module Layouts {
         function EventLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_var_dc_getHeight = dc.getHeight();
-
             var rez_cmp_local_var_dc_getWidth = dc.getWidth();
 
-            var rez_cmp_local_bitmap_eventIcon = new WatchUi.Bitmap({:identifier=>"eventIcon", :rezId=>$.Rez.Drawables.eventIcon, :locX=>WatchUi.LAYOUT_HALIGN_CENTER, :locY=>(rez_cmp_local_var_dc_getHeight * (30 / 100.0))});
-            rez_cmp_local_bitmap_eventIcon.setLocation(((rez_cmp_local_var_dc_getWidth - rez_cmp_local_bitmap_eventIcon.width) * 0.5), (rez_cmp_local_var_dc_getHeight * (30 / 100.0)));
+            var rez_cmp_local_text_scoreText = new WatchUi.Text({:identifier=>"scoreText", :color=>Graphics.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>((dc.getHeight() - dc.getFontHeight(Graphics.FONT_NUMBER_MEDIUM)) * 0.5), :text=>"0-0", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_MEDIUM});
 
-            var rez_cmp_local_text_scoreText = new WatchUi.Text({:identifier=>"scoreText", :color=>Graphics.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>((rez_cmp_local_var_dc_getHeight - dc.getFontHeight(Graphics.FONT_LARGE)) * 0.5), :text=>"0-0", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+            var rez_cmp_local_text_timeText = new WatchUi.Text({:identifier=>"timeText", :color=>Graphics.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>WatchUi.LAYOUT_VALIGN_BOTTOM, :text=>"45:00", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
 
-            var rez_cmp_local_text_timeText = new WatchUi.Text({:identifier=>"timeText", :color=>Graphics.COLOR_WHITE, :locX=>(rez_cmp_local_var_dc_getWidth * 0.5), :locY=>WatchUi.LAYOUT_VALIGN_BOTTOM, :text=>"45:00", :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
-
-            return [rez_cmp_local_bitmap_eventIcon, rez_cmp_local_text_scoreText, rez_cmp_local_text_timeText] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_text_scoreText, rez_cmp_local_text_timeText] as Array<WatchUi.Drawable>;
         }
 
         function MatchLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {

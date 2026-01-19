@@ -11,7 +11,7 @@ class SelTimeDelegate extends WatchUi.BehaviorDelegate {
 
     function onDown() {
         if (_view.time > 0){
-        _view.time = _view.time - 1;
+            _view.time = _view.time - 1;
         }
     }
     function onUp(){

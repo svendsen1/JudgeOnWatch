@@ -43,16 +43,16 @@ C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Refere
         bf %tmp.5 @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_13_8_15_8_if_end;
 C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_13_8_15_8_if_true:
 C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_13_27_15_8_start:
-[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 14 8 ]
-        symbol [ _view %tmp.6 14 8 13 ];
+[ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\SelTimeDelegate.mc" 14 12 ]
+        symbol [ _view %tmp.6 14 12 17 ];
         %tmp.6 = getv self :_view;
-        symbol [ _view %tmp.8 14 21 26 ];
+        symbol [ _view %tmp.8 14 25 30 ];
         %tmp.8 = getv ? :_view;
-        symbol [ time %tmp.9 14 27 31 ];
+        symbol [ time %tmp.9 14 31 35 ];
         %tmp.9 = getv %tmp.8 :time;
         %tmp.10 = 1;
         %tmp.11 = sub %tmp.9 %tmp.10;
-        symbol [ time ? 14 14 18 ];
+        symbol [ time ? 14 18 22 ];
         putv %tmp.6 :time %tmp.11;
 C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_13_27_15_8_stop:
         goto @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_SelTimeDelegate_mc_13_8_15_8_if_end;

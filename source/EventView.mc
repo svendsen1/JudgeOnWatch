@@ -21,7 +21,6 @@ class EventView extends WatchUi.View {
         
         _scoreLabel = findDrawableById("scoreText");
         _timerLabel = findDrawableById("timeText");
-        _icon = findDrawableById("eventIcon");
     }    
 
         function onShow() as Void {
@@ -29,19 +28,23 @@ class EventView extends WatchUi.View {
 
     // Update the view
     function onUpdate(dc as Dc) {
+        View.onUpdate(dc);
+        
         _scoreLabel.setText(_event.score);
         var time = timeFormat(_event.time);
         _timerLabel.setText(time);
         var iconSelect = _event.eventType;
-        System.println(iconSelect);
 
         switch (iconSelect) {
             case "goal":
-                _icon.setBitmap(Rez.Drawables.footballIcon);
-                break;
+            var icon = loadResource(Rez.Drawables.footballIcon);
+            dc.drawBitmap(
+                    (dc.getWidth()/2) - 45,
+                    10,
+                    icon
+                );
+            break;
         }
-                
-        View.onUpdate(dc);
     }
 
     // Called when this View is removed from the screen. Save the

@@ -1,11 +1,4 @@
 <layout id="EventLayout">
-    <bitmap
-        id="eventIcon"
-        x = "center"
-        y = "30%"
-        filename = "C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\resources\\drawables\\football-svgrepo-com.svg" 
-    />
-
     <label
         id="scoreText"
         x="center"
