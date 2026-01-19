@@ -144,17 +144,17 @@ C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Refere
 [ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\GameDoneDelegate.mc" 25 12 ]
         symbol [ WatchUi %tmp.35 25 12 19 ];
         %tmp.35 = getm $.Toybox.WatchUi;
-        symbol [ switchToView %tmp.36 25 20 32 ];
-        %tmp.36 = getv function %tmp.35 :switchToView;
-        symbol [ EventView %tmp.40 25 37 46 ];
+        symbol [ pushView %tmp.36 25 20 28 ];
+        %tmp.36 = getv function %tmp.35 :pushView;
+        symbol [ EventView %tmp.40 25 33 42 ];
         %tmp.40 = getv ? :EventView;
         %tmp.41 = lgetv %event.3;
-        symbol [ event %tmp.41 25 47 52 ];
+        symbol [ event %tmp.41 25 43 48 ];
         %tmp.37 = newc %tmp.40 (%tmp.41);
         %tmp.42 = null;
-        symbol [ WatchUi %tmp.43 25 61 68 ];
+        symbol [ WatchUi %tmp.43 25 57 64 ];
         %tmp.43 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_IMMEDIATE %tmp.44 25 69 84 ];
+        symbol [ SLIDE_IMMEDIATE %tmp.44 25 65 80 ];
         %tmp.44 = getv %tmp.43 :SLIDE_IMMEDIATE;
         invoke %tmp.35 %tmp.36(%tmp.37, %tmp.42, %tmp.44);
 C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_GameDoneDelegate_mc_22_15_26_8_stop:

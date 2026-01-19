@@ -22,7 +22,7 @@ class GameDoneDelegate extends WatchUi.Menu2InputDelegate {
         } else {
             var index = item.getId();
             var event = _events[index];
-            WatchUi.switchToView(new EventView(event), null, WatchUi.SLIDE_IMMEDIATE);
+            WatchUi.pushView(new EventView(event), null, WatchUi.SLIDE_IMMEDIATE);
         }
     }
 }
