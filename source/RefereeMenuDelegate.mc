@@ -26,7 +26,7 @@ class RefereeMenuDelegate extends WatchUi.MenuInputDelegate {
             // Make the 'GameDoneViewMenu'
             var endGameView = new GameDoneView(_view._listGoals);
             var delegate;
-            delegate = new GameDoneDelegate(); // a WatchUi.MenuInputDelegate
+            delegate = new GameDoneDelegate(_view._listGoals); // a WatchUi.MenuInputDelegate
             WatchUi.switchToView(endGameView, delegate, WatchUi.SLIDE_IMMEDIATE);
         }
     }

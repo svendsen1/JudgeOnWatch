@@ -11,12 +11,11 @@ class GameDoneView extends WatchUi.Menu2 {
             var e = events[i];
             var text = ((e.time / 60) + 1) + "' | " + e.score;
 
-            System.println(i);
             addItem(
                 new WatchUi.MenuItem(
                     text,
                     null,
-                    null,
+                    i,
                     {:team => e.team, :time => e.time, :score => e.time, :eventType => e.eventType}
                 )
             );

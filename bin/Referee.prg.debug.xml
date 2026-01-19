@@ -2,236 +2,260 @@
 <debugInfo>
     <manifest filename="C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\manifest.xml"/>
     <pcToLineNum>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="1" lineNum="4" parent="globals/RefereeDelegate" pc="268435460" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="2" lineNum="27" parent="globals" pc="268435479" symbol="getApp"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="2" lineNum="28" parent="globals" pc="268435489" symbol="getApp"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="3" lineNum="5" parent="globals/RefereeMenuDelegate" pc="268435505" symbol="&lt;init&gt;"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="4" lineNum="7" parent="globals/Rez" pc="268435524" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="5" lineNum="5" parent="globals/RefereeApp" pc="268435548" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="6" lineNum="6" parent="globals/RefereeView" pc="268435567" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="6" lineNum="24" parent="globals/RefereeView" pc="268435585" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="7" lineNum="4" parent="globals/GameDoneDelegate" pc="268435600" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneView.mc" id="8" lineNum="5" parent="globals/GameDoneView" pc="268435619" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="9" lineNum="4" parent="globals/SelTimeDelegate" pc="268435638" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="10" lineNum="4" parent="globals/SelTimeView" pc="268435657" symbol="&lt;init&gt;"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="11" lineNum="12" parent="globals/RefereeDelegate" pc="268435676" symbol="onMenu"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="11" lineNum="13" parent="globals/RefereeDelegate" pc="268435680" symbol="onMenu"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="11" lineNum="15" parent="globals/RefereeDelegate" pc="268435708" symbol="onMenu"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="11" lineNum="16" parent="globals/RefereeDelegate" pc="268435725" symbol="onMenu"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="11" lineNum="17" parent="globals/RefereeDelegate" pc="268435747" symbol="onMenu"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="11" lineNum="18" parent="globals/RefereeDelegate" pc="268435769" symbol="onMenu"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="11" lineNum="19" parent="globals/RefereeDelegate" pc="268435787" symbol="onMenu"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="11" lineNum="21" parent="globals/RefereeDelegate" pc="268435812" symbol="onMenu"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="11" lineNum="23" parent="globals/RefereeDelegate" pc="268435834" symbol="onMenu"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="11" lineNum="24" parent="globals/RefereeDelegate" pc="268435866" symbol="onMenu"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="11" lineNum="25" parent="globals/RefereeDelegate" pc="268435891" symbol="onMenu"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="12" lineNum="7" parent="globals/RefereeDelegate" pc="268435894" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="12" lineNum="8" parent="globals/RefereeDelegate" pc="268435896" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="12" lineNum="9" parent="globals/RefereeDelegate" pc="268435914" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="13" lineNum="28" parent="globals/RefereeDelegate" pc="268435925" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="13" lineNum="29" parent="globals/RefereeDelegate" pc="268435927" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="13" lineNum="30" parent="globals/RefereeDelegate" pc="268435947" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="13" lineNum="31" parent="globals/RefereeDelegate" pc="268435964" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="13" lineNum="34" parent="globals/RefereeDelegate" pc="268435983" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="13" lineNum="36" parent="globals/RefereeDelegate" pc="268436012" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="13" lineNum="37" parent="globals/RefereeDelegate" pc="268436018" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="13" lineNum="38" parent="globals/RefereeDelegate" pc="268436038" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="13" lineNum="39" parent="globals/RefereeDelegate" pc="268436050" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="13" lineNum="41" parent="globals/RefereeDelegate" pc="268436056" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\MatchEvent.mc" id="14" lineNum="7" parent="globals/MatchEvent" pc="268436059" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\MatchEvent.mc" id="14" lineNum="8" parent="globals/MatchEvent" pc="268436061" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\MatchEvent.mc" id="14" lineNum="9" parent="globals/MatchEvent" pc="268436071" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\MatchEvent.mc" id="14" lineNum="10" parent="globals/MatchEvent" pc="268436081" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\MatchEvent.mc" id="14" lineNum="11" parent="globals/MatchEvent" pc="268436091" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="15" lineNum="13" parent="globals/RefereeMenuDelegate" pc="268436102" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="15" lineNum="14" parent="globals/RefereeMenuDelegate" pc="268436106" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="15" lineNum="15" parent="globals/RefereeMenuDelegate" pc="268436117" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="15" lineNum="16" parent="globals/RefereeMenuDelegate" pc="268436151" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="15" lineNum="17" parent="globals/RefereeMenuDelegate" pc="268436265" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="15" lineNum="18" parent="globals/RefereeMenuDelegate" pc="268436276" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="15" lineNum="19" parent="globals/RefereeMenuDelegate" pc="268436310" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="15" lineNum="20" parent="globals/RefereeMenuDelegate" pc="268436424" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="15" lineNum="21" parent="globals/RefereeMenuDelegate" pc="268436435" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="15" lineNum="22" parent="globals/RefereeMenuDelegate" pc="268436451" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="15" lineNum="23" parent="globals/RefereeMenuDelegate" pc="268436485" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="15" lineNum="24" parent="globals/RefereeMenuDelegate" pc="268436504" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="15" lineNum="25" parent="globals/RefereeMenuDelegate" pc="268436523" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="15" lineNum="27" parent="globals/RefereeMenuDelegate" pc="268436534" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="15" lineNum="29" parent="globals/RefereeMenuDelegate" pc="268436572" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="15" lineNum="30" parent="globals/RefereeMenuDelegate" pc="268436596" symbol="onMenuItem"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="16" lineNum="8" parent="globals/RefereeMenuDelegate" pc="268436625" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="16" lineNum="9" parent="globals/RefereeMenuDelegate" pc="268436627" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="16" lineNum="10" parent="globals/RefereeMenuDelegate" pc="268436645" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="17" lineNum="12" parent="globals/RefereeApp" pc="268436656" symbol="onStart"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="18" lineNum="20" parent="globals/RefereeApp" pc="268436659" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="18" lineNum="21" parent="globals/RefereeApp" pc="268436663" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="18" lineNum="22" parent="globals/RefereeApp" pc="268436687" symbol="getInitialView"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="19" lineNum="7" parent="globals/RefereeApp" pc="268436736" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="19" lineNum="8" parent="globals/RefereeApp" pc="268436738" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="20" lineNum="16" parent="globals/RefereeApp" pc="268436757" symbol="onStop"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="22" lineNum="50" parent="globals/RefereeView" pc="268436760" symbol="onLayout"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="22" lineNum="51" parent="globals/RefereeView" pc="268436764" symbol="onLayout"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="22" lineNum="52" parent="globals/RefereeView" pc="268436805" symbol="onLayout"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="22" lineNum="53" parent="globals/RefereeView" pc="268436829" symbol="onLayout"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="22" lineNum="54" parent="globals/RefereeView" pc="268436853" symbol="onLayout"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="22" lineNum="55" parent="globals/RefereeView" pc="268436877" symbol="onLayout"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="22" lineNum="57" parent="globals/RefereeView" pc="268436901" symbol="onLayout"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="22" lineNum="58" parent="globals/RefereeView" pc="268436929" symbol="onLayout"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="23" lineNum="31" parent="globals/RefereeView" pc="268436965" symbol="timerCallback"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="23" lineNum="32" parent="globals/RefereeView" pc="268436969" symbol="timerCallback"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="23" lineNum="33" parent="globals/RefereeView" pc="268436981" symbol="timerCallback"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="23" lineNum="34" parent="globals/RefereeView" pc="268437000" symbol="timerCallback"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="23" lineNum="35" parent="globals/RefereeView" pc="268437011" symbol="timerCallback"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="23" lineNum="37" parent="globals/RefereeView" pc="268437033" symbol="timerCallback"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="23" lineNum="38" parent="globals/RefereeView" pc="268437091" symbol="timerCallback"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="23" lineNum="43" parent="globals/RefereeView" pc="268437231" symbol="timerCallback"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="23" lineNum="45" parent="globals/RefereeView" pc="268437252" symbol="timerCallback"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="24" lineNum="90" parent="globals/RefereeView" pc="268437272" symbol="timeFormat"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="24" lineNum="92" parent="globals/RefereeView" pc="268437276" symbol="timeFormat"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="24" lineNum="93" parent="globals/RefereeView" pc="268437286" symbol="timeFormat"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="24" lineNum="95" parent="globals/RefereeView" pc="268437296" symbol="timeFormat"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="24" lineNum="98" parent="globals/RefereeView" pc="268437350" symbol="timeFormat"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="24" lineNum="101" parent="globals/RefereeView" pc="268437404" symbol="timeFormat"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="24" lineNum="102" parent="globals/RefereeView" pc="268437452" symbol="timeFormat"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="25" lineNum="26" parent="globals/RefereeView" pc="268437455" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="25" lineNum="27" parent="globals/RefereeView" pc="268437457" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="25" lineNum="28" parent="globals/RefereeView" pc="268437475" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="27" lineNum="68" parent="globals/RefereeView" pc="268437486" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="27" lineNum="70" parent="globals/RefereeView" pc="268437488" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="27" lineNum="71" parent="globals/RefereeView" pc="268437526" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="27" lineNum="75" parent="globals/RefereeView" pc="268437564" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="27" lineNum="76" parent="globals/RefereeView" pc="268437591" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="27" lineNum="78" parent="globals/RefereeView" pc="268437617" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="27" lineNum="79" parent="globals/RefereeView" pc="268437644" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="27" lineNum="81" parent="globals/RefereeView" pc="268437670" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="28" lineNum="10" parent="globals/GameDoneDelegate" pc="268437691" symbol="restart"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="28" lineNum="11" parent="globals/GameDoneDelegate" pc="268437695" symbol="restart"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="28" lineNum="12" parent="globals/GameDoneDelegate" pc="268437719" symbol="restart"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="29" lineNum="6" parent="globals/GameDoneDelegate" pc="268437768" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="29" lineNum="7" parent="globals/GameDoneDelegate" pc="268437770" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="30" lineNum="14" parent="globals/GameDoneDelegate" pc="268437789" symbol="onSelect"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="30" lineNum="15" parent="globals/GameDoneDelegate" pc="268437793" symbol="onSelect"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="30" lineNum="17" parent="globals/GameDoneDelegate" pc="268437826" symbol="onSelect"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="30" lineNum="18" parent="globals/GameDoneDelegate" pc="268437854" symbol="onSelect"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="30" lineNum="19" parent="globals/GameDoneDelegate" pc="268437875" symbol="onSelect"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="30" lineNum="20" parent="globals/GameDoneDelegate" pc="268437888" symbol="onSelect"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="30" lineNum="21" parent="globals/GameDoneDelegate" pc="268437925" symbol="onSelect"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneView.mc" id="31" lineNum="7" parent="globals/GameDoneView" pc="268437950" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneView.mc" id="31" lineNum="8" parent="globals/GameDoneView" pc="268437954" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneView.mc" id="31" lineNum="10" parent="globals/GameDoneView" pc="268437991" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneView.mc" id="31" lineNum="11" parent="globals/GameDoneView" pc="268438015" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneView.mc" id="31" lineNum="12" parent="globals/GameDoneView" pc="268438022" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneView.mc" id="31" lineNum="14" parent="globals/GameDoneView" pc="268438059" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneView.mc" id="31" lineNum="15" parent="globals/GameDoneView" pc="268438077" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneView.mc" id="31" lineNum="24" parent="globals/GameDoneView" pc="268438202" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="32" lineNum="22" parent="globals/SelTimeDelegate" pc="268438271" symbol="onEnter"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="32" lineNum="24" parent="globals/SelTimeDelegate" pc="268438275" symbol="onEnter"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="32" lineNum="25" parent="globals/SelTimeDelegate" pc="268438313" symbol="onEnter"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="32" lineNum="26" parent="globals/SelTimeDelegate" pc="268438339" symbol="onEnter"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="33" lineNum="12" parent="globals/SelTimeDelegate" pc="268438365" symbol="onDown"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="33" lineNum="13" parent="globals/SelTimeDelegate" pc="268438367" symbol="onDown"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="33" lineNum="14" parent="globals/SelTimeDelegate" pc="268438390" symbol="onDown"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="34" lineNum="7" parent="globals/SelTimeDelegate" pc="268438428" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="34" lineNum="8" parent="globals/SelTimeDelegate" pc="268438430" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="34" lineNum="9" parent="globals/SelTimeDelegate" pc="268438448" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="35" lineNum="17" parent="globals/SelTimeDelegate" pc="268438459" symbol="onUp"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="35" lineNum="18" parent="globals/SelTimeDelegate" pc="268438461" symbol="onUp"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="35" lineNum="19" parent="globals/SelTimeDelegate" pc="268438484" symbol="onUp"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="36" lineNum="29" parent="globals/SelTimeDelegate" pc="268438522" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="36" lineNum="31" parent="globals/SelTimeDelegate" pc="268438524" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="36" lineNum="33" parent="globals/SelTimeDelegate" pc="268438544" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="36" lineNum="34" parent="globals/SelTimeDelegate" pc="268438556" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="36" lineNum="35" parent="globals/SelTimeDelegate" pc="268438572" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="36" lineNum="36" parent="globals/SelTimeDelegate" pc="268438578" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="36" lineNum="37" parent="globals/SelTimeDelegate" pc="268438598" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="36" lineNum="38" parent="globals/SelTimeDelegate" pc="268438610" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="36" lineNum="40" parent="globals/SelTimeDelegate" pc="268438626" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="36" lineNum="41" parent="globals/SelTimeDelegate" pc="268438632" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="36" lineNum="42" parent="globals/SelTimeDelegate" pc="268438652" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="36" lineNum="43" parent="globals/SelTimeDelegate" pc="268438664" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="36" lineNum="45" parent="globals/SelTimeDelegate" pc="268438680" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="36" lineNum="47" parent="globals/SelTimeDelegate" pc="268438686" symbol="onKey"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="38" lineNum="13" parent="globals/SelTimeView" pc="268438689" symbol="onLayout"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="38" lineNum="14" parent="globals/SelTimeView" pc="268438691" symbol="onLayout"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="38" lineNum="15" parent="globals/SelTimeView" pc="268438732" symbol="onLayout"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="39" lineNum="8" parent="globals/SelTimeView" pc="268438757" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="39" lineNum="9" parent="globals/SelTimeView" pc="268438759" symbol="initialize"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="41" lineNum="25" parent="globals/SelTimeView" pc="268438778" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="41" lineNum="27" parent="globals/SelTimeView" pc="268438782" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="41" lineNum="30" parent="globals/SelTimeView" pc="268438854" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="41" lineNum="31" parent="globals/SelTimeView" pc="268438905" symbol="onUpdate"/>
-        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="41" lineNum="32" parent="globals/SelTimeView" pc="268438925" symbol="onUpdate"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="42" lineNum="31" parent="globals/Rez/Layouts" pc="268438946" symbol="MatchLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="42" lineNum="32" parent="globals/Rez/Layouts" pc="268438958" symbol="MatchLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="42" lineNum="34" parent="globals/Rez/Layouts" pc="268438971" symbol="MatchLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="42" lineNum="36" parent="globals/Rez/Layouts" pc="268438984" symbol="MatchLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="42" lineNum="38" parent="globals/Rez/Layouts" pc="268439115" symbol="MatchLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="42" lineNum="40" parent="globals/Rez/Layouts" pc="268439246" symbol="MatchLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="42" lineNum="42" parent="globals/Rez/Layouts" pc="268439394" symbol="MatchLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="42" lineNum="44" parent="globals/Rez/Layouts" pc="268439525" symbol="MatchLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="43" lineNum="47" parent="globals/Rez/Layouts" pc="268439572" symbol="HalfDurationLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="43" lineNum="48" parent="globals/Rez/Layouts" pc="268439584" symbol="HalfDurationLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="43" lineNum="50" parent="globals/Rez/Layouts" pc="268439597" symbol="HalfDurationLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="43" lineNum="52" parent="globals/Rez/Layouts" pc="268439610" symbol="HalfDurationLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="43" lineNum="54" parent="globals/Rez/Layouts" pc="268439741" symbol="HalfDurationLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="43" lineNum="56" parent="globals/Rez/Layouts" pc="268439872" symbol="HalfDurationLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="44" lineNum="16" parent="globals/Rez/Layouts" pc="268439899" symbol="EventLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="44" lineNum="17" parent="globals/Rez/Layouts" pc="268439911" symbol="EventLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="44" lineNum="19" parent="globals/Rez/Layouts" pc="268439924" symbol="EventLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="44" lineNum="21" parent="globals/Rez/Layouts" pc="268439937" symbol="EventLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="44" lineNum="22" parent="globals/Rez/Layouts" pc="268440045" symbol="EventLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="44" lineNum="24" parent="globals/Rez/Layouts" pc="268440082" symbol="EventLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="44" lineNum="26" parent="globals/Rez/Layouts" pc="268440230" symbol="EventLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="44" lineNum="28" parent="globals/Rez/Layouts" pc="268440358" symbol="EventLayout"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="45" lineNum="61" parent="globals/Rez/Menus/MainMenu" pc="268440395" symbol="&lt;init&gt;"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="46" lineNum="62" parent="globals/Rez/Menus/MainMenu" pc="268440414" symbol="initialize"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="46" lineNum="63" parent="globals/Rez/Menus/MainMenu" pc="268440416" symbol="initialize"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="46" lineNum="64" parent="globals/Rez/Menus/MainMenu" pc="268440434" symbol="initialize"/>
-        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B3869-00\\source\\Rez.mcgen" id="46" lineNum="65" parent="globals/Rez/Menus/MainMenu" pc="268440490" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="1" lineNum="27" parent="globals" pc="268435460" symbol="getApp"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="1" lineNum="28" parent="globals" pc="268435470" symbol="getApp"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435481" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="3" lineNum="6" parent="globals/RefereeView" pc="268435501" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="3" lineNum="24" parent="globals/RefereeView" pc="268435512" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="4" lineNum="4" parent="globals/GameDoneDelegate" pc="268435522" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="5" lineNum="4" parent="globals/SelTimeView" pc="268435534" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="6" lineNum="6" parent="globals/EventView" pc="268435546" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="7" lineNum="4" parent="globals/RefereeDelegate" pc="268435558" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="8" lineNum="5" parent="globals/RefereeMenuDelegate" pc="268435570" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="9" lineNum="5" parent="globals/RefereeApp" pc="268435582" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneView.mc" id="10" lineNum="5" parent="globals/GameDoneView" pc="268435594" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="11" lineNum="4" parent="globals/SelTimeDelegate" pc="268435606" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\MatchEvent.mc" id="12" lineNum="7" parent="globals/MatchEvent" pc="268435618" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\MatchEvent.mc" id="12" lineNum="8" parent="globals/MatchEvent" pc="268435620" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\MatchEvent.mc" id="12" lineNum="9" parent="globals/MatchEvent" pc="268435629" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\MatchEvent.mc" id="12" lineNum="10" parent="globals/MatchEvent" pc="268435638" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\MatchEvent.mc" id="12" lineNum="11" parent="globals/MatchEvent" pc="268435647" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="14" lineNum="50" parent="globals/RefereeView" pc="268435657" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="14" lineNum="51" parent="globals/RefereeView" pc="268435660" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="14" lineNum="52" parent="globals/RefereeView" pc="268435693" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="14" lineNum="53" parent="globals/RefereeView" pc="268435713" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="14" lineNum="54" parent="globals/RefereeView" pc="268435733" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="14" lineNum="55" parent="globals/RefereeView" pc="268435753" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="14" lineNum="57" parent="globals/RefereeView" pc="268435773" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="14" lineNum="58" parent="globals/RefereeView" pc="268435797" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="15" lineNum="31" parent="globals/RefereeView" pc="268435825" symbol="timerCallback"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="15" lineNum="32" parent="globals/RefereeView" pc="268435828" symbol="timerCallback"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="15" lineNum="33" parent="globals/RefereeView" pc="268435837" symbol="timerCallback"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="15" lineNum="34" parent="globals/RefereeView" pc="268435852" symbol="timerCallback"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="15" lineNum="35" parent="globals/RefereeView" pc="268435860" symbol="timerCallback"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="15" lineNum="37" parent="globals/RefereeView" pc="268435878" symbol="timerCallback"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="15" lineNum="38" parent="globals/RefereeView" pc="268435915" symbol="timerCallback"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="15" lineNum="43" parent="globals/RefereeView" pc="268436011" symbol="timerCallback"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="15" lineNum="45" parent="globals/RefereeView" pc="268436029" symbol="timerCallback"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="16" lineNum="90" parent="globals/RefereeView" pc="268436044" symbol="timeFormat"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="16" lineNum="92" parent="globals/RefereeView" pc="268436047" symbol="timeFormat"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="16" lineNum="93" parent="globals/RefereeView" pc="268436054" symbol="timeFormat"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="16" lineNum="95" parent="globals/RefereeView" pc="268436061" symbol="timeFormat"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="16" lineNum="98" parent="globals/RefereeView" pc="268436102" symbol="timeFormat"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="16" lineNum="101" parent="globals/RefereeView" pc="268436143" symbol="timeFormat"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="16" lineNum="102" parent="globals/RefereeView" pc="268436176" symbol="timeFormat"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="17" lineNum="26" parent="globals/RefereeView" pc="268436179" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="17" lineNum="27" parent="globals/RefereeView" pc="268436181" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="17" lineNum="28" parent="globals/RefereeView" pc="268436193" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="19" lineNum="68" parent="globals/RefereeView" pc="268436203" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="19" lineNum="70" parent="globals/RefereeView" pc="268436205" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="19" lineNum="71" parent="globals/RefereeView" pc="268436236" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="19" lineNum="75" parent="globals/RefereeView" pc="268436267" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="19" lineNum="76" parent="globals/RefereeView" pc="268436287" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="19" lineNum="78" parent="globals/RefereeView" pc="268436306" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="19" lineNum="79" parent="globals/RefereeView" pc="268436326" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeView.mc" id="19" lineNum="81" parent="globals/RefereeView" pc="268436345" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="20" lineNum="12" parent="globals/GameDoneDelegate" pc="268436362" symbol="restart"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="20" lineNum="13" parent="globals/GameDoneDelegate" pc="268436365" symbol="restart"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="20" lineNum="14" parent="globals/GameDoneDelegate" pc="268436385" symbol="restart"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="21" lineNum="7" parent="globals/GameDoneDelegate" pc="268436418" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="21" lineNum="8" parent="globals/GameDoneDelegate" pc="268436420" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="21" lineNum="9" parent="globals/GameDoneDelegate" pc="268436432" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="22" lineNum="16" parent="globals/GameDoneDelegate" pc="268436442" symbol="onSelect"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="22" lineNum="17" parent="globals/GameDoneDelegate" pc="268436445" symbol="onSelect"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="22" lineNum="19" parent="globals/GameDoneDelegate" pc="268436471" symbol="onSelect"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="22" lineNum="20" parent="globals/GameDoneDelegate" pc="268436494" symbol="onSelect"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="22" lineNum="21" parent="globals/GameDoneDelegate" pc="268436502" symbol="onSelect"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="22" lineNum="23" parent="globals/GameDoneDelegate" pc="268436528" symbol="onSelect"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="22" lineNum="24" parent="globals/GameDoneDelegate" pc="268436537" symbol="onSelect"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneDelegate.mc" id="22" lineNum="25" parent="globals/GameDoneDelegate" pc="268436547" symbol="onSelect"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="24" lineNum="13" parent="globals/SelTimeView" pc="268436583" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="24" lineNum="14" parent="globals/SelTimeView" pc="268436585" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="24" lineNum="15" parent="globals/SelTimeView" pc="268436618" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="25" lineNum="8" parent="globals/SelTimeView" pc="268436639" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="25" lineNum="9" parent="globals/SelTimeView" pc="268436641" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="27" lineNum="25" parent="globals/SelTimeView" pc="268436654" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="27" lineNum="27" parent="globals/SelTimeView" pc="268436657" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="27" lineNum="30" parent="globals/SelTimeView" pc="268436707" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="27" lineNum="31" parent="globals/SelTimeView" pc="268436737" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeView.mc" id="27" lineNum="32" parent="globals/SelTimeView" pc="268436753" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="29" lineNum="19" parent="globals/EventView" pc="268436770" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="29" lineNum="20" parent="globals/EventView" pc="268436772" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="29" lineNum="22" parent="globals/EventView" pc="268436805" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="29" lineNum="23" parent="globals/EventView" pc="268436825" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="29" lineNum="24" parent="globals/EventView" pc="268436845" symbol="onLayout"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="30" lineNum="53" parent="globals/EventView" pc="268436866" symbol="timeFormat"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="30" lineNum="55" parent="globals/EventView" pc="268436869" symbol="timeFormat"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="30" lineNum="56" parent="globals/EventView" pc="268436879" symbol="timeFormat"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="31" lineNum="13" parent="globals/EventView" pc="268436888" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="31" lineNum="14" parent="globals/EventView" pc="268436890" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="31" lineNum="15" parent="globals/EventView" pc="268436902" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="33" lineNum="31" parent="globals/EventView" pc="268436912" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="33" lineNum="32" parent="globals/EventView" pc="268436915" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="33" lineNum="33" parent="globals/EventView" pc="268436939" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="33" lineNum="34" parent="globals/EventView" pc="268436959" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="33" lineNum="35" parent="globals/EventView" pc="268436975" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="33" lineNum="36" parent="globals/EventView" pc="268436987" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="33" lineNum="38" parent="globals/EventView" pc="268437002" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="33" lineNum="39" parent="globals/EventView" pc="268437004" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="33" lineNum="40" parent="globals/EventView" pc="268437026" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="33" lineNum="41" parent="globals/EventView" pc="268437059" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\EventView.mc" id="33" lineNum="44" parent="globals/EventView" pc="268437063" symbol="onUpdate"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="34" lineNum="12" parent="globals/RefereeDelegate" pc="268437080" symbol="onMenu"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="34" lineNum="13" parent="globals/RefereeDelegate" pc="268437083" symbol="onMenu"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="34" lineNum="15" parent="globals/RefereeDelegate" pc="268437107" symbol="onMenu"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="34" lineNum="16" parent="globals/RefereeDelegate" pc="268437122" symbol="onMenu"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="34" lineNum="17" parent="globals/RefereeDelegate" pc="268437142" symbol="onMenu"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="34" lineNum="18" parent="globals/RefereeDelegate" pc="268437162" symbol="onMenu"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="34" lineNum="19" parent="globals/RefereeDelegate" pc="268437176" symbol="onMenu"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="34" lineNum="21" parent="globals/RefereeDelegate" pc="268437199" symbol="onMenu"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="34" lineNum="23" parent="globals/RefereeDelegate" pc="268437219" symbol="onMenu"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="34" lineNum="24" parent="globals/RefereeDelegate" pc="268437244" symbol="onMenu"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="34" lineNum="25" parent="globals/RefereeDelegate" pc="268437262" symbol="onMenu"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="35" lineNum="7" parent="globals/RefereeDelegate" pc="268437264" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="35" lineNum="8" parent="globals/RefereeDelegate" pc="268437266" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="35" lineNum="9" parent="globals/RefereeDelegate" pc="268437278" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="36" lineNum="28" parent="globals/RefereeDelegate" pc="268437288" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="36" lineNum="29" parent="globals/RefereeDelegate" pc="268437290" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="36" lineNum="30" parent="globals/RefereeDelegate" pc="268437303" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="36" lineNum="31" parent="globals/RefereeDelegate" pc="268437316" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="36" lineNum="34" parent="globals/RefereeDelegate" pc="268437331" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="36" lineNum="36" parent="globals/RefereeDelegate" pc="268437353" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="36" lineNum="37" parent="globals/RefereeDelegate" pc="268437358" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="36" lineNum="38" parent="globals/RefereeDelegate" pc="268437371" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="36" lineNum="39" parent="globals/RefereeDelegate" pc="268437378" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeDelegate.mc" id="36" lineNum="41" parent="globals/RefereeDelegate" pc="268437383" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="37" lineNum="13" parent="globals/RefereeMenuDelegate" pc="268437385" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="37" lineNum="14" parent="globals/RefereeMenuDelegate" pc="268437388" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="37" lineNum="15" parent="globals/RefereeMenuDelegate" pc="268437399" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="37" lineNum="16" parent="globals/RefereeMenuDelegate" pc="268437423" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="37" lineNum="17" parent="globals/RefereeMenuDelegate" pc="268437516" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="37" lineNum="18" parent="globals/RefereeMenuDelegate" pc="268437527" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="37" lineNum="19" parent="globals/RefereeMenuDelegate" pc="268437551" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="37" lineNum="20" parent="globals/RefereeMenuDelegate" pc="268437644" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="37" lineNum="21" parent="globals/RefereeMenuDelegate" pc="268437655" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="37" lineNum="22" parent="globals/RefereeMenuDelegate" pc="268437667" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="37" lineNum="23" parent="globals/RefereeMenuDelegate" pc="268437691" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="37" lineNum="24" parent="globals/RefereeMenuDelegate" pc="268437703" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="37" lineNum="25" parent="globals/RefereeMenuDelegate" pc="268437718" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="37" lineNum="27" parent="globals/RefereeMenuDelegate" pc="268437729" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="37" lineNum="29" parent="globals/RefereeMenuDelegate" pc="268437759" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="37" lineNum="30" parent="globals/RefereeMenuDelegate" pc="268437789" symbol="onMenuItem"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="38" lineNum="8" parent="globals/RefereeMenuDelegate" pc="268437811" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="38" lineNum="9" parent="globals/RefereeMenuDelegate" pc="268437813" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeMenuDelegate.mc" id="38" lineNum="10" parent="globals/RefereeMenuDelegate" pc="268437825" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="39" lineNum="12" parent="globals/RefereeApp" pc="268437835" symbol="onStart"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="40" lineNum="20" parent="globals/RefereeApp" pc="268437838" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="40" lineNum="21" parent="globals/RefereeApp" pc="268437841" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="40" lineNum="22" parent="globals/RefereeApp" pc="268437861" symbol="getInitialView"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="41" lineNum="7" parent="globals/RefereeApp" pc="268437894" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="41" lineNum="8" parent="globals/RefereeApp" pc="268437896" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\RefereeApp.mc" id="42" lineNum="16" parent="globals/RefereeApp" pc="268437909" symbol="onStop"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneView.mc" id="43" lineNum="7" parent="globals/GameDoneView" pc="268437912" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneView.mc" id="43" lineNum="8" parent="globals/GameDoneView" pc="268437915" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneView.mc" id="43" lineNum="10" parent="globals/GameDoneView" pc="268437945" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneView.mc" id="43" lineNum="11" parent="globals/GameDoneView" pc="268437961" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneView.mc" id="43" lineNum="12" parent="globals/GameDoneView" pc="268437968" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneView.mc" id="43" lineNum="14" parent="globals/GameDoneView" pc="268437995" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\GameDoneView.mc" id="43" lineNum="23" parent="globals/GameDoneView" pc="268438094" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="44" lineNum="22" parent="globals/SelTimeDelegate" pc="268438153" symbol="onEnter"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="44" lineNum="24" parent="globals/SelTimeDelegate" pc="268438156" symbol="onEnter"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="44" lineNum="25" parent="globals/SelTimeDelegate" pc="268438186" symbol="onEnter"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="44" lineNum="26" parent="globals/SelTimeDelegate" pc="268438208" symbol="onEnter"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="45" lineNum="12" parent="globals/SelTimeDelegate" pc="268438227" symbol="onDown"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="45" lineNum="13" parent="globals/SelTimeDelegate" pc="268438229" symbol="onDown"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="45" lineNum="14" parent="globals/SelTimeDelegate" pc="268438244" symbol="onDown"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="46" lineNum="7" parent="globals/SelTimeDelegate" pc="268438272" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="46" lineNum="8" parent="globals/SelTimeDelegate" pc="268438274" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="46" lineNum="9" parent="globals/SelTimeDelegate" pc="268438286" symbol="initialize"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="47" lineNum="17" parent="globals/SelTimeDelegate" pc="268438296" symbol="onUp"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="47" lineNum="18" parent="globals/SelTimeDelegate" pc="268438298" symbol="onUp"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="47" lineNum="19" parent="globals/SelTimeDelegate" pc="268438314" symbol="onUp"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="48" lineNum="29" parent="globals/SelTimeDelegate" pc="268438342" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="48" lineNum="31" parent="globals/SelTimeDelegate" pc="268438344" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="48" lineNum="33" parent="globals/SelTimeDelegate" pc="268438357" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="48" lineNum="34" parent="globals/SelTimeDelegate" pc="268438364" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="48" lineNum="35" parent="globals/SelTimeDelegate" pc="268438375" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="48" lineNum="36" parent="globals/SelTimeDelegate" pc="268438380" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="48" lineNum="37" parent="globals/SelTimeDelegate" pc="268438393" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="48" lineNum="38" parent="globals/SelTimeDelegate" pc="268438400" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="48" lineNum="40" parent="globals/SelTimeDelegate" pc="268438411" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="48" lineNum="41" parent="globals/SelTimeDelegate" pc="268438416" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="48" lineNum="42" parent="globals/SelTimeDelegate" pc="268438429" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="48" lineNum="43" parent="globals/SelTimeDelegate" pc="268438436" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="48" lineNum="45" parent="globals/SelTimeDelegate" pc="268438447" symbol="onKey"/>
+        <entry filename="C:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\source\\SelTimeDelegate.mc" id="48" lineNum="47" parent="globals/SelTimeDelegate" pc="268438452" symbol="onKey"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="49" lineNum="31" parent="globals/Rez/Layouts" pc="268438454" symbol="MatchLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="49" lineNum="32" parent="globals/Rez/Layouts" pc="268438465" symbol="MatchLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="49" lineNum="34" parent="globals/Rez/Layouts" pc="268438474" symbol="MatchLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="49" lineNum="36" parent="globals/Rez/Layouts" pc="268438483" symbol="MatchLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="49" lineNum="38" parent="globals/Rez/Layouts" pc="268438589" symbol="MatchLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="49" lineNum="40" parent="globals/Rez/Layouts" pc="268438694" symbol="MatchLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="49" lineNum="42" parent="globals/Rez/Layouts" pc="268438812" symbol="MatchLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="49" lineNum="44" parent="globals/Rez/Layouts" pc="268438918" symbol="MatchLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="50" lineNum="47" parent="globals/Rez/Layouts" pc="268438943" symbol="HalfDurationLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="50" lineNum="48" parent="globals/Rez/Layouts" pc="268438954" symbol="HalfDurationLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="50" lineNum="50" parent="globals/Rez/Layouts" pc="268438963" symbol="HalfDurationLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="50" lineNum="52" parent="globals/Rez/Layouts" pc="268438972" symbol="HalfDurationLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="50" lineNum="54" parent="globals/Rez/Layouts" pc="268439078" symbol="HalfDurationLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="50" lineNum="56" parent="globals/Rez/Layouts" pc="268439184" symbol="HalfDurationLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="51" lineNum="16" parent="globals/Rez/Layouts" pc="268439199" symbol="EventLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="51" lineNum="17" parent="globals/Rez/Layouts" pc="268439210" symbol="EventLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="51" lineNum="19" parent="globals/Rez/Layouts" pc="268439219" symbol="EventLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="51" lineNum="21" parent="globals/Rez/Layouts" pc="268439228" symbol="EventLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="51" lineNum="22" parent="globals/Rez/Layouts" pc="268439318" symbol="EventLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="51" lineNum="24" parent="globals/Rez/Layouts" pc="268439351" symbol="EventLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="51" lineNum="26" parent="globals/Rez/Layouts" pc="268439469" symbol="EventLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="51" lineNum="28" parent="globals/Rez/Layouts" pc="268439572" symbol="EventLayout"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="52" lineNum="61" parent="globals/Rez/Menus/MainMenu" pc="268439592" symbol="&lt;init&gt;"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="53" lineNum="62" parent="globals/Rez/Menus/MainMenu" pc="268439604" symbol="initialize"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="53" lineNum="63" parent="globals/Rez/Menus/MainMenu" pc="268439606" symbol="initialize"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="53" lineNum="64" parent="globals/Rez/Menus/MainMenu" pc="268439618" symbol="initialize"/>
+        <entry filename="c:\\Users\\sebas\\OneDrive - Danmarks Tekniske Universitet\\Skrivebord\\Garmin\\Referee\\bin\\gen\\006-B4257-00\\source\\Rez.mcgen" id="53" lineNum="65" parent="globals/Rez/Menus/MainMenu" pc="268439663" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry field="true" id="24" symbol="_awayLabel"/>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry field="true" id="8389346" symbol="text"/>
-        <entry id="48" method="true" symbol="HalfDurationLayout"/>
+        <entry id="53" method="true" symbol="HalfDurationLayout"/>
         <entry field="true" id="8389344" symbol="seconds"/>
-        <entry id="42" method="true" symbol="onUp"/>
+        <entry id="47" method="true" symbol="onUp"/>
         <entry field="true" id="25" symbol="_hasBeenHalfTime"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
         <entry id="5" module="true" symbol="globals/Rez/Menus"/>
-        <entry id="7" object="true" symbol="GameDoneDelegate"/>
+        <entry id="8" object="true" symbol="GameDoneDelegate"/>
         <entry field="true" id="19" symbol="team"/>
         <entry field="true" id="28" symbol="_isTimeWaste"/>
-        <entry id="13" object="true" symbol="RefereeView"/>
+        <entry id="14" object="true" symbol="RefereeView"/>
         <entry field="true" id="18" symbol="score"/>
-        <entry id="49" method="true" symbol="MatchLayout"/>
+        <entry id="54" method="true" symbol="MatchLayout"/>
         <entry field="true" id="27" symbol="_isHalfTime"/>
         <entry field="true" id="35" symbol="secondayTime"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-        <entry id="12" object="true" symbol="RefereeMenuDelegate"/>
-        <entry id="59" symbol="function"/>
-        <entry field="true" id="44" symbol="eventIcon"/>
-        <entry id="55" symbol="homeScored"/>
-        <entry field="true" id="51" symbol="AppName"/>
+        <entry id="13" object="true" symbol="RefereeMenuDelegate"/>
+        <entry id="64" symbol="function"/>
+        <entry field="true" id="49" symbol="eventIcon"/>
+        <entry id="60" symbol="homeScored"/>
+        <entry field="true" id="56" symbol="AppName"/>
         <entry id="6" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8389080" method="true" symbol="onMenu"/>
         <entry id="8389345" symbol="rezId"/>
-        <entry field="true" id="52" symbol="menu_label_away"/>
+        <entry field="true" id="57" symbol="menu_label_away"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
-        <entry id="14" object="true" symbol="SelTimeDelegate"/>
-        <entry id="40" method="true" symbol="onDown"/>
+        <entry id="15" object="true" symbol="SelTimeDelegate"/>
+        <entry id="45" method="true" symbol="onDown"/>
         <entry field="true" id="36" symbol="secondsSecodaryClock"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
-        <entry id="39" method="true" symbol="restart"/>
-        <entry field="true" id="54" symbol="prompt"/>
-        <entry id="10" object="true" symbol="RefereeApp"/>
+        <entry id="40" method="true" symbol="restart"/>
+        <entry field="true" id="59" symbol="prompt"/>
+        <entry id="11" object="true" symbol="RefereeApp"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
         <entry field="true" id="8389065" symbol="locY"/>
         <entry field="true" id="8389064" symbol="locX"/>
         <entry field="true" id="31" symbol="awayScore"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="8389348" symbol="font"/>
-        <entry field="true" id="46" symbol="whistleIcon"/>
+        <entry field="true" id="51" symbol="whistleIcon"/>
         <entry id="22" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
@@ -240,12 +264,13 @@
         <entry field="true" id="20" symbol="time"/>
         <entry field="true" id="17" symbol="eventType"/>
         <entry id="8389349" symbol="justification"/>
-        <entry id="61" symbol="away"/>
+        <entry id="66" symbol="away"/>
         <entry field="true" id="32" symbol="halfLength"/>
-        <entry field="true" id="45" symbol="footballIcon"/>
-        <entry field="true" id="53" symbol="menu_label_home"/>
+        <entry field="true" id="50" symbol="footballIcon"/>
+        <entry field="true" id="58" symbol="menu_label_home"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="50" object="true" symbol="MainMenu"/>
+        <entry id="7" object="true" symbol="EventView"/>
+        <entry id="55" object="true" symbol="MainMenu"/>
         <entry id="37" method="true" symbol="timeFormat"/>
         <entry field="true" id="23" symbol="_addedTimeLabel"/>
         <entry id="8388644" module="true" symbol="System"/>
@@ -254,97 +279,111 @@
         <entry id="38" method="true" symbol="timerCallback"/>
         <entry field="true" id="29" symbol="_listGoals"/>
         <entry id="8388640" module="true" symbol="Lang"/>
-        <entry id="41" method="true" symbol="onEnter"/>
-        <entry field="true" id="43" symbol="LauncherIcon"/>
-        <entry id="57" symbol="halfEnd"/>
+        <entry id="46" method="true" symbol="onEnter"/>
+        <entry field="true" id="42" symbol="_icon"/>
+        <entry field="true" id="41" symbol="_event"/>
+        <entry field="true" id="48" symbol="LauncherIcon"/>
+        <entry id="62" symbol="halfEnd"/>
         <entry id="8388610" symbol="statics"/>
-        <entry id="60" symbol="home"/>
+        <entry id="65" symbol="home"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry field="true" id="16" symbol="_view"/>
+        <entry field="true" id="44" symbol="_view"/>
         <entry id="8388702" method="true" symbol="initialize"/>
         <entry id="8389279" method="true" symbol="onStart"/>
-        <entry id="47" method="true" symbol="EventLayout"/>
+        <entry id="52" method="true" symbol="EventLayout"/>
         <entry field="true" id="26" symbol="_homeLabel"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry field="true" id="30" symbol="_timerLabel"/>
         <entry id="8389109" method="true" symbol="onMenuItem"/>
         <entry field="true" id="8389347" symbol="color"/>
-        <entry id="11" object="true" symbol="RefereeDelegate"/>
+        <entry id="12" object="true" symbol="RefereeDelegate"/>
+        <entry field="true" id="39" symbol="_events"/>
         <entry id="8389097" method="true" symbol="onKey"/>
+        <entry field="true" id="43" symbol="_scoreLabel"/>
         <entry id="21" module="true" symbol="Layouts"/>
         <entry id="8388636" module="true" symbol="Attention"/>
-        <entry id="15" object="true" symbol="SelTimeView"/>
-        <entry id="56" symbol="awayScored"/>
-        <entry id="8" object="true" symbol="GameDoneView"/>
+        <entry id="16" object="true" symbol="SelTimeView"/>
+        <entry id="61" symbol="awayScored"/>
+        <entry id="9" object="true" symbol="GameDoneView"/>
         <entry id="8389125" method="true" symbol="onHide"/>
-        <entry id="9" object="true" symbol="MatchEvent"/>
-        <entry id="58" symbol="gameEnd"/>
+        <entry id="10" object="true" symbol="MatchEvent"/>
+        <entry id="63" symbol="gameEnd"/>
         <entry id="8388635" module="true" symbol="Application"/>
         <entry field="true" id="8389642" symbol="title"/>
         <entry field="true" id="33" symbol="homeScore"/>
         <entry field="true" id="34" symbol="mainTime"/>
     </symbolTable>
     <localVars>
-        <entry endPc="268435893" name="menu" stackId="1" startPc="268435680"/>
-        <entry endPc="268435893" name="delegate" stackId="2" startPc="268435680"/>
-        <entry arg="true" endPc="268435924" name="view" stackId="1" startPc="268435894"/>
-        <entry arg="true" endPc="268436058" name="evt" stackId="1" startPc="268435925"/>
-        <entry arg="true" endPc="268436101" name="team" stackId="1" startPc="268436059"/>
-        <entry arg="true" endPc="268436101" name="time" stackId="2" startPc="268436059"/>
-        <entry arg="true" endPc="268436101" name="score" stackId="3" startPc="268436059"/>
-        <entry arg="true" endPc="268436101" name="eventType" stackId="4" startPc="268436059"/>
-        <entry arg="true" endPc="268436624" name="item" stackId="1" startPc="268436102"/>
-        <entry endPc="268436620" name="endGameView" stackId="2" startPc="268436534"/>
-        <entry endPc="268436620" name="delegate" stackId="3" startPc="268436534"/>
-        <entry arg="true" endPc="268436655" name="view" stackId="1" startPc="268436625"/>
-        <entry endPc="268436735" name="selTimeView" stackId="1" startPc="268436663"/>
-        <entry arg="true" endPc="268436964" name="dc" stackId="1" startPc="268436760"/>
-        <entry endPc="268436963" name="myTimer" stackId="2" startPc="268436764"/>
-        <entry endPc="268437248" name="vibeData" stackId="1" startPc="268437091"/>
-        <entry arg="true" endPc="268437454" name="timeInSeconds" stackId="1" startPc="268437272"/>
-        <entry endPc="268437454" name="timeFormated" stackId="2" startPc="268437276"/>
-        <entry endPc="268437454" name="minutes" stackId="3" startPc="268437276"/>
-        <entry endPc="268437454" name="displaySec" stackId="4" startPc="268437276"/>
-        <entry arg="true" endPc="268437485" name="initialTime" stackId="1" startPc="268437455"/>
-        <entry arg="true" endPc="268437690" name="dc" stackId="1" startPc="268437486"/>
-        <entry endPc="268437767" name="selTimeView" stackId="1" startPc="268437695"/>
-        <entry arg="true" endPc="268437949" name="item" stackId="1" startPc="268437789"/>
-        <entry endPc="268437945" name="newGame" stackId="2" startPc="268437854"/>
-        <entry arg="true" endPc="268438270" name="events" stackId="1" startPc="268437950"/>
-        <entry endPc="268438201" name="i" stackId="2" startPc="268438015"/>
-        <entry endPc="268438188" name="e" stackId="3" startPc="268438015"/>
-        <entry endPc="268438188" name="text" stackId="4" startPc="268438015"/>
-        <entry endPc="268438363" name="refView" stackId="1" startPc="268438275"/>
-        <entry endPc="268438363" name="refDelegate" stackId="2" startPc="268438275"/>
-        <entry arg="true" endPc="268438458" name="view" stackId="1" startPc="268438428"/>
-        <entry arg="true" endPc="268438688" name="evt" stackId="1" startPc="268438522"/>
-        <entry arg="true" endPc="268438756" name="dc" stackId="1" startPc="268438689"/>
-        <entry arg="true" endPc="268438945" name="dc" stackId="1" startPc="268438778"/>
-        <entry endPc="268438944" name="minute" stackId="2" startPc="268438782"/>
-        <entry endPc="268438944" name="timeString" stackId="3" startPc="268438782"/>
-        <entry arg="true" endPc="268439571" name="dc" stackId="1" startPc="268438946"/>
-        <entry endPc="268439571" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268438958"/>
-        <entry endPc="268439571" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268438958"/>
-        <entry endPc="268439571" name="rez_cmp_local_text_home" stackId="4" startPc="268438958"/>
-        <entry endPc="268439571" name="rez_cmp_local_text_away" stackId="5" startPc="268438958"/>
-        <entry endPc="268439571" name="rez_cmp_local_text_mainTimer" stackId="6" startPc="268438958"/>
-        <entry endPc="268439571" name="rez_cmp_local_text_addedTime" stackId="7" startPc="268438958"/>
-        <entry arg="true" endPc="268439898" name="dc" stackId="1" startPc="268439572"/>
-        <entry endPc="268439898" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268439584"/>
-        <entry endPc="268439898" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268439584"/>
-        <entry endPc="268439898" name="rez_cmp_local_text_title" stackId="4" startPc="268439584"/>
-        <entry endPc="268439898" name="rez_cmp_local_text_timer" stackId="5" startPc="268439584"/>
-        <entry arg="true" endPc="268440394" name="dc" stackId="1" startPc="268439899"/>
-        <entry endPc="268440394" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268439911"/>
-        <entry endPc="268440394" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268439911"/>
-        <entry endPc="268440394" name="rez_cmp_local_bitmap_eventIcon" stackId="4" startPc="268439911"/>
-        <entry endPc="268440394" name="rez_cmp_local_text_scoreText" stackId="5" startPc="268439911"/>
-        <entry endPc="268440394" name="rez_cmp_local_text_timeText" stackId="6" startPc="268439911"/>
+        <entry arg="true" endPc="268435656" name="team" stackId="1" startPc="268435618"/>
+        <entry arg="true" endPc="268435656" name="time" stackId="2" startPc="268435618"/>
+        <entry arg="true" endPc="268435656" name="score" stackId="3" startPc="268435618"/>
+        <entry arg="true" endPc="268435656" name="eventType" stackId="4" startPc="268435618"/>
+        <entry arg="true" endPc="268435824" name="dc" stackId="1" startPc="268435657"/>
+        <entry endPc="268435823" name="myTimer" stackId="2" startPc="268435660"/>
+        <entry endPc="268436025" name="vibeData" stackId="1" startPc="268435915"/>
+        <entry arg="true" endPc="268436178" name="timeInSeconds" stackId="1" startPc="268436044"/>
+        <entry endPc="268436178" name="timeFormated" stackId="2" startPc="268436047"/>
+        <entry endPc="268436178" name="minutes" stackId="3" startPc="268436047"/>
+        <entry endPc="268436178" name="displaySec" stackId="4" startPc="268436047"/>
+        <entry arg="true" endPc="268436202" name="initialTime" stackId="1" startPc="268436179"/>
+        <entry arg="true" endPc="268436361" name="dc" stackId="1" startPc="268436203"/>
+        <entry endPc="268436417" name="selTimeView" stackId="1" startPc="268436365"/>
+        <entry arg="true" endPc="268436441" name="events" stackId="1" startPc="268436418"/>
+        <entry arg="true" endPc="268436582" name="item" stackId="1" startPc="268436442"/>
+        <entry endPc="268436524" name="newGame" stackId="2" startPc="268436494"/>
+        <entry endPc="268436581" name="index" stackId="3" startPc="268436528"/>
+        <entry endPc="268436581" name="event" stackId="4" startPc="268436528"/>
+        <entry arg="true" endPc="268436638" name="dc" stackId="1" startPc="268436583"/>
+        <entry arg="true" endPc="268436769" name="dc" stackId="1" startPc="268436654"/>
+        <entry endPc="268436768" name="minute" stackId="2" startPc="268436657"/>
+        <entry endPc="268436768" name="timeString" stackId="3" startPc="268436657"/>
+        <entry arg="true" endPc="268436865" name="dc" stackId="1" startPc="268436770"/>
+        <entry arg="true" endPc="268436887" name="seconds" stackId="1" startPc="268436866"/>
+        <entry endPc="268436887" name="minutes" stackId="2" startPc="268436869"/>
+        <entry arg="true" endPc="268436911" name="event" stackId="1" startPc="268436888"/>
+        <entry arg="true" endPc="268437079" name="dc" stackId="1" startPc="268436912"/>
+        <entry endPc="268437078" name="time" stackId="2" startPc="268436915"/>
+        <entry endPc="268437078" name="iconSelect" stackId="3" startPc="268436915"/>
+        <entry endPc="268437263" name="menu" stackId="1" startPc="268437083"/>
+        <entry endPc="268437263" name="delegate" stackId="2" startPc="268437083"/>
+        <entry arg="true" endPc="268437287" name="view" stackId="1" startPc="268437264"/>
+        <entry arg="true" endPc="268437384" name="evt" stackId="1" startPc="268437288"/>
+        <entry arg="true" endPc="268437810" name="item" stackId="1" startPc="268437385"/>
+        <entry endPc="268437806" name="endGameView" stackId="2" startPc="268437729"/>
+        <entry endPc="268437806" name="delegate" stackId="3" startPc="268437729"/>
+        <entry arg="true" endPc="268437834" name="view" stackId="1" startPc="268437811"/>
+        <entry endPc="268437893" name="selTimeView" stackId="1" startPc="268437841"/>
+        <entry arg="true" endPc="268438152" name="events" stackId="1" startPc="268437912"/>
+        <entry endPc="268438093" name="i" stackId="2" startPc="268437961"/>
+        <entry endPc="268438083" name="e" stackId="3" startPc="268437961"/>
+        <entry endPc="268438083" name="text" stackId="4" startPc="268437961"/>
+        <entry endPc="268438225" name="refView" stackId="1" startPc="268438156"/>
+        <entry endPc="268438225" name="refDelegate" stackId="2" startPc="268438156"/>
+        <entry arg="true" endPc="268438295" name="view" stackId="1" startPc="268438272"/>
+        <entry arg="true" endPc="268438453" name="evt" stackId="1" startPc="268438342"/>
+        <entry arg="true" endPc="268438942" name="dc" stackId="1" startPc="268438454"/>
+        <entry endPc="268438942" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268438465"/>
+        <entry endPc="268438942" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268438465"/>
+        <entry endPc="268438942" name="rez_cmp_local_text_home" stackId="4" startPc="268438465"/>
+        <entry endPc="268438942" name="rez_cmp_local_text_away" stackId="5" startPc="268438465"/>
+        <entry endPc="268438942" name="rez_cmp_local_text_mainTimer" stackId="6" startPc="268438465"/>
+        <entry endPc="268438942" name="rez_cmp_local_text_addedTime" stackId="7" startPc="268438465"/>
+        <entry arg="true" endPc="268439198" name="dc" stackId="1" startPc="268438943"/>
+        <entry endPc="268439198" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268438954"/>
+        <entry endPc="268439198" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268438954"/>
+        <entry endPc="268439198" name="rez_cmp_local_text_title" stackId="4" startPc="268438954"/>
+        <entry endPc="268439198" name="rez_cmp_local_text_timer" stackId="5" startPc="268438954"/>
+        <entry arg="true" endPc="268439591" name="dc" stackId="1" startPc="268439199"/>
+        <entry endPc="268439591" name="rez_cmp_local_var_dc_getHeight" stackId="2" startPc="268439210"/>
+        <entry endPc="268439591" name="rez_cmp_local_var_dc_getWidth" stackId="3" startPc="268439210"/>
+        <entry endPc="268439591" name="rez_cmp_local_bitmap_eventIcon" stackId="4" startPc="268439210"/>
+        <entry endPc="268439591" name="rez_cmp_local_text_scoreText" stackId="5" startPc="268439210"/>
+        <entry endPc="268439591" name="rez_cmp_local_text_timeText" stackId="6" startPc="268439210"/>
     </localVars>
-    <deviceInfo deviceVersion="bb3887dffaa22ce965b5fe681a1cee6986d833ca" partNumber="006-B3869-00"/>
+    <deviceInfo deviceVersion="5c7ae9cf907f88c116a91dc4ffd75be9b5b7d2e9" partNumber="006-B4257-00"/>
     <annotations>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
         <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="footballIcon"/>
@@ -356,81 +395,66 @@
         <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="menu_label_away"/>
     </annotations>
     <dataEntryOffsetMappings>
-        <dataEntry label="globals" offset="71" parentId="" symbolId="globals" type="module"/>
-        <dataEntry label="globals/RefereeDelegate" offset="198" parentId="globals" symbolId="RefereeDelegate" type="class"/>
-        <dataEntry label="globals/MatchEvent" offset="269" parentId="globals" symbolId="MatchEvent" type="class"/>
-        <dataEntry label="globals/RefereeMenuDelegate" offset="348" parentId="globals" symbolId="RefereeMenuDelegate" type="class"/>
-        <dataEntry label="globals/Rez" offset="411" parentId="globals" symbolId="Rez" type="module"/>
-        <dataEntry label="globals/RefereeApp" offset="474" parentId="globals" symbolId="RefereeApp" type="class"/>
-        <dataEntry label="globals/RefereeView" offset="545" parentId="globals" symbolId="RefereeView" type="class"/>
-        <dataEntry label="globals/GameDoneDelegate" offset="760" parentId="globals" symbolId="GameDoneDelegate" type="class"/>
-        <dataEntry label="globals/GameDoneView" offset="823" parentId="globals" symbolId="GameDoneView" type="class"/>
-        <dataEntry label="globals/SelTimeDelegate" offset="870" parentId="globals" symbolId="SelTimeDelegate" type="class"/>
-        <dataEntry label="globals/SelTimeView" offset="957" parentId="globals" symbolId="SelTimeView" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="1052" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="1115" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="1170" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="1209" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/Menus/MainMenu" offset="1272" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals" offset="67" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/MatchEvent" offset="206" parentId="globals" symbolId="MatchEvent" type="class"/>
+        <dataEntry label="globals/Rez" offset="286" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/RefereeView" offset="348" parentId="globals" symbolId="RefereeView" type="class"/>
+        <dataEntry label="globals/GameDoneDelegate" offset="581" parentId="globals" symbolId="GameDoneDelegate" type="class"/>
+        <dataEntry label="globals/SelTimeView" offset="652" parentId="globals" symbolId="SelTimeView" type="class"/>
+        <dataEntry label="globals/EventView" offset="750" parentId="globals" symbolId="EventView" type="class"/>
+        <dataEntry label="globals/RefereeDelegate" offset="875" parentId="globals" symbolId="RefereeDelegate" type="class"/>
+        <dataEntry label="globals/RefereeMenuDelegate" offset="946" parentId="globals" symbolId="RefereeMenuDelegate" type="class"/>
+        <dataEntry label="globals/RefereeApp" offset="1008" parentId="globals" symbolId="RefereeApp" type="class"/>
+        <dataEntry label="globals/GameDoneView" offset="1079" parentId="globals" symbolId="GameDoneView" type="class"/>
+        <dataEntry label="globals/SelTimeDelegate" offset="1123" parentId="globals" symbolId="SelTimeDelegate" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1212" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1274" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1327" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1362" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="1424" parentId="Menus" symbolId="MainMenu" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
-        <functionEntry accessMode="public" endPc="268435478" name="&lt;init&gt;" parent="RefereeDelegate" startPc="268435460">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268435504" name="getApp" startPc="268435479">
+        <functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="MatchEvent">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435523" name="&lt;init&gt;" parent="RefereeMenuDelegate" startPc="268435505">
+        <functionEntry accessMode="public" endPc="268435500" name="&lt;init&gt;" parent="Rez" startPc="268435481">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435547" name="&lt;init&gt;" parent="Rez" startPc="268435524">
+        <functionEntry accessMode="public" endPc="268435521" name="&lt;init&gt;" parent="RefereeView" startPc="268435501">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435566" name="&lt;init&gt;" parent="RefereeApp" startPc="268435548">
+        <functionEntry accessMode="public" endPc="268435533" name="&lt;init&gt;" parent="GameDoneDelegate" startPc="268435522">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435599" name="&lt;init&gt;" parent="RefereeView" startPc="268435567">
+        <functionEntry accessMode="public" endPc="268435545" name="&lt;init&gt;" parent="SelTimeView" startPc="268435534">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435618" name="&lt;init&gt;" parent="GameDoneDelegate" startPc="268435600">
+        <functionEntry accessMode="public" endPc="268435557" name="&lt;init&gt;" parent="EventView" startPc="268435546">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435637" name="&lt;init&gt;" parent="GameDoneView" startPc="268435619">
+        <functionEntry accessMode="public" endPc="268435569" name="&lt;init&gt;" parent="RefereeDelegate" startPc="268435558">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435656" name="&lt;init&gt;" parent="SelTimeDelegate" startPc="268435638">
+        <functionEntry accessMode="public" endPc="268435581" name="&lt;init&gt;" parent="RefereeMenuDelegate" startPc="268435570">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435675" name="&lt;init&gt;" parent="SelTimeView" startPc="268435657">
+        <functionEntry accessMode="public" endPc="268435593" name="&lt;init&gt;" parent="RefereeApp" startPc="268435582">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435893" name="onMenu" parent="RefereeDelegate" startPc="268435676">
+        <functionEntry accessMode="public" endPc="268435605" name="&lt;init&gt;" parent="GameDoneView" startPc="268435594">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268435924" name="initialize" parent="RefereeDelegate" startPc="268435894">
-            <param id="view"/>
+        <functionEntry accessMode="public" endPc="268435617" name="&lt;init&gt;" parent="SelTimeDelegate" startPc="268435606">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436058" name="onKey" parent="RefereeDelegate" startPc="268435925">
-            <param id="evt"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436101" name="initialize" parent="MatchEvent" startPc="268436059">
+        <functionEntry accessMode="public" endPc="268435656" name="initialize" parent="MatchEvent" startPc="268435618">
             <param id="team"/>
             <param id="time"/>
             <param id="score"/>
             <param id="eventType"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436624" name="onMenuItem" parent="RefereeMenuDelegate" startPc="268436102">
-            <param id="item"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436655" name="initialize" parent="RefereeMenuDelegate" startPc="268436625">
-            <param id="view"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -445,109 +469,151 @@
         <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436658" name="onStart" parent="RefereeApp" startPc="268436656">
-            <param id="state"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436735" name="getInitialView" parent="RefereeApp" startPc="268436659">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436756" name="initialize" parent="RefereeApp" startPc="268436736">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268436759" name="onStop" parent="RefereeApp" startPc="268436757">
-            <param id="state"/>
-            <documentation/>
-        </functionEntry>
         <functionEntry accessMode="public" name="onShow" parent="RefereeView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268436964" name="onLayout" parent="RefereeView" startPc="268436760">
+        <functionEntry accessMode="public" endPc="268435824" name="onLayout" parent="RefereeView" startPc="268435657">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437271" name="timerCallback" parent="RefereeView" startPc="268436965">
+        <functionEntry accessMode="public" endPc="268436043" name="timerCallback" parent="RefereeView" startPc="268435825">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437454" name="timeFormat" parent="RefereeView" startPc="268437272">
+        <functionEntry accessMode="public" endPc="268436178" name="timeFormat" parent="RefereeView" startPc="268436044">
             <param id="timeInSeconds"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437485" name="initialize" parent="RefereeView" startPc="268437455">
+        <functionEntry accessMode="public" endPc="268436202" name="initialize" parent="RefereeView" startPc="268436179">
             <param id="initialTime"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="RefereeView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437690" name="onUpdate" parent="RefereeView" startPc="268437486">
+        <functionEntry accessMode="public" endPc="268436361" name="onUpdate" parent="RefereeView" startPc="268436203">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437767" name="restart" parent="GameDoneDelegate" startPc="268437691">
+        <functionEntry accessMode="public" endPc="268436417" name="restart" parent="GameDoneDelegate" startPc="268436362">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268437788" name="initialize" parent="GameDoneDelegate" startPc="268437768">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268437949" name="onSelect" parent="GameDoneDelegate" startPc="268437789">
-            <param id="item"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268438270" name="initialize" parent="GameDoneView" startPc="268437950">
+        <functionEntry accessMode="public" endPc="268436441" name="initialize" parent="GameDoneDelegate" startPc="268436418">
             <param id="events"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438364" name="onEnter" parent="SelTimeDelegate" startPc="268438271">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268438427" name="onDown" parent="SelTimeDelegate" startPc="268438365">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268438458" name="initialize" parent="SelTimeDelegate" startPc="268438428">
-            <param id="view"/>
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268438521" name="onUp" parent="SelTimeDelegate" startPc="268438459">
-            <documentation/>
-        </functionEntry>
-        <functionEntry accessMode="public" endPc="268438688" name="onKey" parent="SelTimeDelegate" startPc="268438522">
-            <param id="evt"/>
+        <functionEntry accessMode="public" endPc="268436582" name="onSelect" parent="GameDoneDelegate" startPc="268436442">
+            <param id="item"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onShow" parent="SelTimeView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438756" name="onLayout" parent="SelTimeView" startPc="268438689">
+        <functionEntry accessMode="public" endPc="268436638" name="onLayout" parent="SelTimeView" startPc="268436583">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438777" name="initialize" parent="SelTimeView" startPc="268438757">
+        <functionEntry accessMode="public" endPc="268436653" name="initialize" parent="SelTimeView" startPc="268436639">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="SelTimeView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268438945" name="onUpdate" parent="SelTimeView" startPc="268438778">
+        <functionEntry accessMode="public" endPc="268436769" name="onUpdate" parent="SelTimeView" startPc="268436654">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439571" name="MatchLayout" parent="Layouts" startPc="268438946">
+        <functionEntry accessMode="public" name="onShow" parent="EventView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436865" name="onLayout" parent="EventView" startPc="268436770">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439898" name="HalfDurationLayout" parent="Layouts" startPc="268439572">
+        <functionEntry accessMode="public" endPc="268436887" name="timeFormat" parent="EventView" startPc="268436866">
+            <param id="seconds"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436911" name="initialize" parent="EventView" startPc="268436888">
+            <param id="event"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="EventView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437079" name="onUpdate" parent="EventView" startPc="268436912">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440394" name="EventLayout" parent="Layouts" startPc="268439899">
+        <functionEntry accessMode="public" endPc="268437263" name="onMenu" parent="RefereeDelegate" startPc="268437080">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437287" name="initialize" parent="RefereeDelegate" startPc="268437264">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437384" name="onKey" parent="RefereeDelegate" startPc="268437288">
+            <param id="evt"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437810" name="onMenuItem" parent="RefereeMenuDelegate" startPc="268437385">
+            <param id="item"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437834" name="initialize" parent="RefereeMenuDelegate" startPc="268437811">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437837" name="onStart" parent="RefereeApp" startPc="268437835">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437893" name="getInitialView" parent="RefereeApp" startPc="268437838">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437908" name="initialize" parent="RefereeApp" startPc="268437894">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437911" name="onStop" parent="RefereeApp" startPc="268437909">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438152" name="initialize" parent="GameDoneView" startPc="268437912">
+            <param id="events"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438226" name="onEnter" parent="SelTimeDelegate" startPc="268438153">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438271" name="onDown" parent="SelTimeDelegate" startPc="268438227">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438295" name="initialize" parent="SelTimeDelegate" startPc="268438272">
+            <param id="view"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438341" name="onUp" parent="SelTimeDelegate" startPc="268438296">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438453" name="onKey" parent="SelTimeDelegate" startPc="268438342">
+            <param id="evt"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268438942" name="MatchLayout" parent="Layouts" startPc="268438454">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440413" name="&lt;init&gt;" parent="MainMenu" startPc="268440395">
+        <functionEntry accessMode="public" endPc="268439198" name="HalfDurationLayout" parent="Layouts" startPc="268438943">
+            <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440546" name="initialize" parent="MainMenu" startPc="268440414">
+        <functionEntry accessMode="public" endPc="268439591" name="EventLayout" parent="Layouts" startPc="268439199">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439603" name="&lt;init&gt;" parent="MainMenu" startPc="268439592">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268439708" name="initialize" parent="MainMenu" startPc="268439604">
             <documentation/>
         </functionEntry>
     </functions>

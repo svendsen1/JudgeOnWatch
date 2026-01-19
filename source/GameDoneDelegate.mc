@@ -2,9 +2,11 @@ import Toybox.Lang;
 import Toybox.WatchUi;
 
 class GameDoneDelegate extends WatchUi.Menu2InputDelegate {
+    var _events;
 
-    function initialize() {
+    function initialize(events) {
         Menu2InputDelegate.initialize();
+        _events = events;
     }
 
     function restart() as [Views, InputDelegates] {
@@ -17,6 +19,10 @@ class GameDoneDelegate extends WatchUi.Menu2InputDelegate {
         if (item.getLabel().equals("Restart")) {
             var newGame = restart();
             WatchUi.switchToView(newGame[0], newGame[1], WatchUi.SLIDE_IMMEDIATE);
-        } 
+        } else {
+            var index = item.getId();
+            var event = _events[index];
+            WatchUi.switchToView(new EventView(event), null, WatchUi.SLIDE_IMMEDIATE);
+        }
     }
 }

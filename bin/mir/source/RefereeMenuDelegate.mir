@@ -214,23 +214,27 @@ C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Refere
 [ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\RefereeMenuDelegate.mc" 29 12 ]
         symbol [ GameDoneDelegate %tmp.99 29 27 43 ];
         %tmp.99 = getv ? :GameDoneDelegate;
-        %tmp.96 = newc %tmp.99 ();
+        symbol [ _view %tmp.101 29 44 49 ];
+        %tmp.101 = getv ? :_view;
+        symbol [ _listGoals %tmp.102 29 50 60 ];
+        %tmp.102 = getv %tmp.101 :_listGoals;
+        %tmp.96 = newc %tmp.99 (%tmp.102);
         lputv %delegate.2 %tmp.96;
         symbol [ delegate %delegate.2 29 12 20 ];
 [ "C:\Users\sebas\OneDrive - Danmarks Tekniske Universitet\Skrivebord\Garmin\Referee\source\RefereeMenuDelegate.mc" 30 12 ]
-        symbol [ WatchUi %tmp.100 30 12 19 ];
-        %tmp.100 = getm $.Toybox.WatchUi;
-        symbol [ switchToView %tmp.101 30 20 32 ];
-        %tmp.101 = getv function %tmp.100 :switchToView;
-        %tmp.102 = lgetv %endGameView.1;
-        symbol [ endGameView %tmp.102 30 33 44 ];
-        %tmp.103 = lgetv %delegate.2;
-        symbol [ delegate %tmp.103 30 46 54 ];
-        symbol [ WatchUi %tmp.104 30 56 63 ];
-        %tmp.104 = getm $.Toybox.WatchUi;
-        symbol [ SLIDE_IMMEDIATE %tmp.105 30 64 79 ];
-        %tmp.105 = getv %tmp.104 :SLIDE_IMMEDIATE;
-        invoke %tmp.100 %tmp.101(%tmp.102, %tmp.103, %tmp.105);
+        symbol [ WatchUi %tmp.103 30 12 19 ];
+        %tmp.103 = getm $.Toybox.WatchUi;
+        symbol [ switchToView %tmp.104 30 20 32 ];
+        %tmp.104 = getv function %tmp.103 :switchToView;
+        %tmp.105 = lgetv %endGameView.1;
+        symbol [ endGameView %tmp.105 30 33 44 ];
+        %tmp.106 = lgetv %delegate.2;
+        symbol [ delegate %tmp.106 30 46 54 ];
+        symbol [ WatchUi %tmp.107 30 56 63 ];
+        %tmp.107 = getm $.Toybox.WatchUi;
+        symbol [ SLIDE_IMMEDIATE %tmp.108 30 64 79 ];
+        %tmp.108 = getv %tmp.107 :SLIDE_IMMEDIATE;
+        invoke %tmp.103 %tmp.104(%tmp.105, %tmp.106, %tmp.108);
 C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_RefereeMenuDelegate_mc_25_36_31_8_stop:
         goto @C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_RefereeMenuDelegate_mc_25_15_31_8_if_end;
 C__Users_sebas_OneDrive___Danmarks_Tekniske_Universitet_Skrivebord_Garmin_Referee_source_RefereeMenuDelegate_mc_25_15_31_8_if_end:
